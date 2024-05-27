@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Card() {
+export default function Card({titulo, img}) {
     return (
         <>
-            <div className="border-2 border-gray-500 w-48 h-48 rounded-lg">
+            <div className="border-2 border-gray-500 w-48 h-56 rounded-lg border-blue-500">
                 <div className="p-3">
-                    <img src="https://via.placeholder.com/40" alt="logo" />
-                    <h2>Título</h2>
+                    <img src={img} alt="logo" />
+                    <h2 className="font-bold pt-4">{titulo}</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>

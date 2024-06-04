@@ -1,5 +1,5 @@
 import React from "react";
-import Formulario from './formulario'
+import { Formulario } from './formulario'
 
 export default function SecaoFormulario() {
     return (

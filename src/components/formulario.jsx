@@ -1,82 +1,84 @@
-import {useState} from "react";
-    
-export  const Formulario = () => {
-   
-    const [primeiroNome, setPrimeiroNome] = useState("");
-    const [ultimoNome, setUltimoNome] = useState("");
-    const [email, setEmail] = useState("");
-    const [telefone, setTelefone] = useState("");
-    const [mensagem, setMensagem] = useState("");
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import './formulario.css'
+import validator from 'validator'
 
- 
-    const handleSubmit = (event) => {
-        alert(`Um nome foi enviado: ${primeiroNome}\nEmail: ${email}`);
-        event.preventDefault();
-    }
+export function Formulario() {
+  const { 
+    register, 
+    handleSubmit,
+    formState: { errors },
+   } = useForm();
 
-    return (
-        <form onSubmit={handleSubmit} className="flex flex-col pl-24 w-[32rem]">
-                <div className="flex justify-between">
-                    <div className="w-1/2">
-                        <label>
-                            Primeiro nome:
-                            <br /> 
-                            <input 
-                            type="text"
-                            name="Primeiro nome" 
-                            value={primeiroNome} 
-                            onChange={(e)=>setPrimeiroNome(e.target.value)} 
-                            className="bg-gray-300 rounded-sm w-48"/>
-                        </label>
-                    </div>
-                    <div className="w-1/2">
-                        <label>
-                            Ultimo nome:
-                            <br /> 
-                            <input 
-                            type="text"
-                            name="Ultimo nome" 
-                            value={ultimoNome} 
-                            onChange={(e)=>setUltimoNome(e.target.value)} 
-                            className="bg-gray-300 rounded-sm w-full "/>
-                        </label>
-                    </div>
-                </div>
-                <br />
-                <label>
-                    Email:
-                    <br /> 
-                    <input 
-                    type="email"
-                    name="email" 
-                    value={email} 
-                    onChange={(e)=>setEmail(e.target.value)} 
-                    className="bg-gray-300 rounded-sm w-full text-black"/>
-                </label>
-                <br />
-                <label>
-                    Telefone:
-                    <br /> 
-                    <input 
-                    type="number"
-                    name="telefone" 
-                    value={telefone} 
-                    onChange={(e)=>setTelefone(e.target.value)} 
-                    className="bg-gray-300 rounded-sm w-full"/>
-                </label>
-                <br />
-                <label>
-                    Mensagem:
-                    <br /> 
-                    <input 
-                    type="text"
-                    name="mensagem" 
-                    value={mensagem} 
-                    onChange={(e)=>setMensagem(e.target.value)} 
-                    className="bg-gray-300 rounded-sm w-full"/>
-                </label>
-                <br />       
-                <input type="submit" value='Inscrever-se' className="bg-gray-500 w-48 rounded-xl"/>
-            </form>
-    )
+  console.log({errors}) 
+
+  const onSubmit = data => {
+    alert(JSON.stringify(data));
+  };
+
+  return (
+    <div className='app-container'>
+      <div className='form-group'>
+        <label>Nome</label>
+        <input
+        className={errors?.nome && "input-error"}
+        type='text'
+        {...register("nome", {
+          required: true
+        })} 
+        />
+        {errors?.nome?.type === "required" && 
+        <p className='error-message'>Nome é obrigatório</p>}
+        
+      </div>
+
+      <div className='form-group'>
+        <label>Sobrenome</label>
+        <input 
+        className={errors?.sobrenome && "input-error"}
+        type='text'
+        {...register("sobrenome", {required: true})}
+        />
+        {errors?.sobrenome?.type === "required" && 
+        <p className='error-message'>Sobrenome é obrigatório</p>}
+      </div>
+
+      <div className='form-group'>
+        <label>E-mail</label>
+        <input 
+        className={errors?.email && "input-error"}
+        type='email'
+        {...register("email", {required: true, 
+          validate: (value) => validator.isEmail(value),
+        })} 
+        />
+        {errors?.email?.type === "required" && 
+        <p className='error-message'>E-mail é obrigatório</p>}
+        {errors?.email?.type === "validate" && 
+        <p className='error-message'>E-mail é inválido</p>}
+      </div>
+      
+      <div className='form-group'>
+        <label>Telefone</label>
+        <input 
+        className={errors?.telefone && "input-error"}
+        type='number'
+        {...register("telefone", {required: true})} 
+        />
+        {errors?.telefone?.type === "required" && 
+        <p className='error-message'>Telefone é obrigatório</p>}
+      </div>
+
+      <div className='form-group'>
+        <label>Mensagem</label>
+        <input {...register("message")} 
+        />
+      </div>      
+
+      <div className='form-group'>  
+        <button type="submit" onClick={() => handleSubmit(onSubmit)()}>Enviar</button>
+      </div>
+
+    </div>
+  );
 }

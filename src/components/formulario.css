@@ -1,5 +1,4 @@
 .app-container {
-    background: #111;
     height: 100%;
     width: 100%;
     display: flex;
@@ -16,7 +15,7 @@
   }
   
   .form-group label {
-    color: #eee;
+    color: #000000;
     font-weight: 500;
   }
   

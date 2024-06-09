@@ -20,14 +20,18 @@ export default function Header() {
                         <button>Iniciar</button>
                     </div>
                 </nav>
-                <div className="">
-                    <div className="w-96">
-                        <h1 className="text-3xl font-extrabold pt-6">Nós criamos o Sistema que o seu negócio precisa</h1>
-                        <p className="pt-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi dolor possimus voluptate? Tempore quam cumque fugiat vero, iste eos doloribus dolore quas nobis. Quaerat laboriosam minus perspiciatis iste quas rem.</p>
+                <div className="flex">
+                    <div>
+                        <div className="w-96">
+                            <h1 className="text-3xl font-extrabold pt-6">Nós criamos o Sistema que o seu negócio precisa</h1>
+                            <p className="pt-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi dolor possimus voluptate? Tempore quam cumque fugiat vero, iste eos doloribus dolore quas nobis. Quaerat laboriosam minus perspiciatis iste quas rem.</p>
+                        </div>
+                        <div className="flex space-x-2 pt-6">
+                            <button className="bg-blue-500 text-sm rounded-2xl w-28 h-7">Começe agora</button>
+                        </div>
                     </div>
-                    <div className="flex space-x-2 pt-6">
-                        <button className="bg-blue-500 rounded-2xl w-28 h-7">button1</button>
-                        <button className="bg-gray-500">button2</button>
+                    <div>
+                        <img src="./public/vecteezy_iso.png" className="ml-8" alt="" />
                     </div>
                 </div>
             </div>

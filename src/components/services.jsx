@@ -24,7 +24,6 @@ export default function Services() {
                     <Card titulo="Estratégia para o Cliente" img="https://via.placeholder.com/40"/>
                     <Card titulo="Análise do marketing" img="https://via.placeholder.com/40"/>
                 </div>
-
             </div>
         </div>
     );

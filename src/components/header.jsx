@@ -24,7 +24,7 @@ export default function Header() {
                     <div>
                         <div className="w-96">
                             <h1 className="text-3xl font-extrabold pt-6">Nós criamos o Sistema que o seu negócio precisa</h1>
-                            <p className="pt-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi dolor possimus voluptate? Tempore quam cumque fugiat vero, iste eos doloribus dolore quas nobis. Quaerat laboriosam minus perspiciatis iste quas rem.</p>
+                            <p className="pt-6">Seu parceiro de confiança para entrega garantida de software.</p>
                         </div>
                         <div className="flex space-x-2 pt-6">
                             <button className="bg-blue-500 text-sm rounded-2xl w-28 h-7">Começe agora</button>

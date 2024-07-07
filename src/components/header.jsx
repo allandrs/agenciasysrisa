@@ -1,5 +1,6 @@
 import React from "react";
-
+import "../style/header.css"
+import "../../public/vecteezy_iso.png"
 
 export default function Header() {
     return (
@@ -23,7 +24,10 @@ export default function Header() {
                 <div className="flex">
                     <div>
                         <div className="w-96">
-                            <h1 className="text-3xl font-extrabold pt-6">Nós criamos o Sistema que o seu negócio precisa</h1>
+                            <h1 className="text-3xl font-extrabold pt-6"><span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                            Nós criamos o Sistema<br />
+                            ideal para seu <br /> negócio
+                            </span></h1>
                             <p className="pt-6">Seu parceiro de confiança para entrega garantida de software.</p>
                         </div>
                         <div className="flex space-x-2 pt-6">

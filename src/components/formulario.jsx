@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import './formulario.css'
+import '../style/formulario.css'
 import validator from 'validator'
 
 export function Formulario() {

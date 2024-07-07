@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/header.css"
-import "../../public/vecteezy_iso.png"
+import image from "../../public/vecteezy_iso.png"
 
 export default function Header() {
     return (
@@ -35,7 +35,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div>
-                        <img src="../../public/vecteezy_iso.png" className="ml-8" alt="" />
+                        <img src={image} className="ml-8" alt="imagem de cabeçalho" />
                     </div>
                 </div>
             </div>

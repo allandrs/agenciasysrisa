@@ -35,7 +35,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div>
-                        <img src="./public/vecteezy_iso.png" className="ml-8" alt="" />
+                        <img src="../../public/vecteezy_iso.png" className="ml-8" alt="" />
                     </div>
                 </div>
             </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "./card";
-
+import Vilabeer from "../../public/Vila-Beer.png"
 
 export default function Services() {
     return (
         <div className="container flex flex-col h-[40rem] px-24 items-center" >
             <h1 className="font-bold pt-6"><span className="text-blue-500">Empresas</span> que estão crescendo conosco</h1>
             <div className="flex gap-32 justify-center pt-4">
-                <img src="./public/Vila-Beer.png" alt="logo" className="h-20"/>
+                <img src={Vilabeer} alt="logo" className="h-20"/>
                 <img src="https://via.placeholder.com/50" alt="logo" />
                 <img src="https://via.placeholder.com/50" alt="logo" />
                 <img src="https://via.placeholder.com/50" alt="logo" />

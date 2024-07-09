@@ -4,22 +4,18 @@ import Image from "../../public/vecteezy_iso.png"
 
 export default function Header() {
     return (
-        <header className="bg-red-50 text-black-500 font-semibold min-h-128 w-full">
-            <div className="container pt-4 px-24">
+        <header className="bg-red-50 text-black-500 font-semibold min-h-128 w-full flex justify-">
+            <div className="container pt-4 px-24 w-full">
                 <nav className="flex justify-between items-center pb-14">
                     <img src="https://via.placeholder.com/50" alt="logo" />
                     <ul className="flex gap-4 place-content-center">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Serviços</a></li>
                         <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Resultados</a></li>
                         <li><a href="#">Testemunhos</a></li>
                         <li><a href="#">Planos</a></li>
                         <li><a href="#">Contatos</a></li>
                     </ul>
-                    <div className="flex gap-4 place-content-center">
-                        <button>Iniciar</button>
-                    </div>
                 </nav>
                 <div className="flex">
                     <div>

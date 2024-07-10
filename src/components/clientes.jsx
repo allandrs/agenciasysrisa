@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Testimonials() {
+export default function Clientes() {
     return (
         <>
             <div className="flex justify-center h-96">

@@ -6,11 +6,10 @@ import "./App.css";
 import Header from './components/header';
 import Services from './components/services';
 import About from "./components/about";
-import Testimonials from "./components/testimonials";
-import Plan from "./components/plan"
+import Clientes from "./components/clientes";
+import PlanTeste from "./components/planteste";
 import SecaoFormulario from "./components/secao_formulario"
 import Footer from "./components/footer"
-import PlanTeste from "./components/planteste";
 
 
 const App = () => {
@@ -20,8 +19,7 @@ const App = () => {
       <Header />
       <Services />
       <About />
-      <Testimonials />
-      <Plan />
+      <Clientes />
       <PlanTeste />
       <SecaoFormulario />
       <Footer />

@@ -9,7 +9,7 @@ export default function Header() {
                 <div className="flex justify-between">
 
                     <div className="flex-initial">
-                        <img src="/public/beewa1-removebg-preview.png" alt="logo" className="flex w-36 h-36 items-start" />
+                        <img src="../../public/beewa1-removebg-preview.png" alt="logo" className="flex w-36 h-36 items-start" />
                     </div>
                     <nav className="flex justify-between items-center">
                             <ul className="flex gap-4 place-content-center">
@@ -28,14 +28,14 @@ export default function Header() {
                 <div className="flex justify-between">
                     <div>
                         <div className="">
-                            <h1 className="text-3xl font-extrabold pt-6"><span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                            <h1 className="text-3xl font-extrabold pt-6"><span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2  text-nowrap text-[27px] ">
                             Nós criamos o Sistema<br />
                             ideal para seu <br /> negócio
                             </span></h1>
                             <p className="pt-6">Seu parceiro de confiança para entrega garantida de software.</p>
                         </div>
                         <div className="flex space-x-2 pt-6">
-                            <button className="bg-blue-500 text-sm rounded-2xl w-28 h-7">Começe agora</button>
+                            <button className="bg-blue-500 text-sm rounded-2xl w-28 h-7 cursor-pointer">Começe agora</button>
                         </div>
                     </div>
                     <div>

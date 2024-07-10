@@ -4,7 +4,7 @@ import { Formulario } from './formulario'
 export default function SecaoFormulario() {
     return (
         <>  
-            <div className="flex">
+            <div className="flex w-full">
                 <div className="w-1/2">
                     <Formulario />
                 </div>

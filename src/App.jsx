@@ -10,6 +10,7 @@ import Testimonials from "./components/testimonials";
 import Plan from "./components/plan"
 import SecaoFormulario from "./components/secao_formulario"
 import Footer from "./components/footer"
+import PlanTeste from "./components/planteste";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <About />
       <Testimonials />
       <Plan />
+      <PlanTeste />
       <SecaoFormulario />
       <Footer />
     </>

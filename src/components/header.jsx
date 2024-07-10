@@ -4,22 +4,30 @@ import Image from "../../public/vecteezy_iso.png"
 
 export default function Header() {
     return (
-        <header className="bg-red-50 text-black-500 font-semibold min-h-128 w-full flex justify-">
-            <div className="container pt-4 px-24 w-full">
-                <nav className="flex justify-between items-center pb-14">
-                    <img src="https://via.placeholder.com/50" alt="logo" />
-                    <ul className="flex gap-4 place-content-center">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Testemunhos</a></li>
-                        <li><a href="#">Planos</a></li>
-                        <li><a href="#">Contatos</a></li>
-                    </ul>
-                </nav>
-                <div className="flex">
+        <header className="bg-red-50 text-black-500 font-semibold min-h-128 w-full flex justify-center">
+            <div className="container pt-4 w-full">
+                <div className="flex justify-between">
+
+                    <div className="flex-initial">
+                        <img src="/public/beewa1-removebg-preview.png" alt="logo" className="flex w-36 h-36 items-start" />
+                    </div>
+                    <nav className="flex justify-between items-center">
+                            <ul className="flex gap-4 place-content-center">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Testemunhos</a></li>
+                            <li><a href="#">Planos</a></li>
+                            <li><a href="#">Contatos</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <div>                      
+                    </div>
+                </div>
+                <div className="flex justify-between">
                     <div>
-                        <div className="w-96">
+                        <div className="">
                             <h1 className="text-3xl font-extrabold pt-6"><span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                             Nós criamos o Sistema<br />
                             ideal para seu <br /> negócio
@@ -31,7 +39,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div>
-                        <img src={Image} className="ml-8" alt="imagem de cabeçalho" />
+                        <img src={Image} className="" alt="imagem de cabeçalho" />
                     </div>
                 </div>
             </div>

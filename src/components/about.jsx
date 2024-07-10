@@ -1,11 +1,12 @@
 import React from "react";
+import managers from "../../public/managers-grow.png"
 
 export default function About() {
     return (
         <>
             <div className="flex items-center justify-betwen h-96 px-24 bg-red-50">
                 <div>
-                    <img src="./public/managers-grow.png" className="w-[500px]" alt="logo" />
+                    <img src={managers} className="w-[500px]" alt="logo" />
                 </div>
                 <div className="w-[400px]">
                     <h1 className="text-3xl font-bold text-black">Sobre nós</h1>

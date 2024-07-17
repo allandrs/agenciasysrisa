@@ -22,19 +22,19 @@ export default function Header() {
           <nav className="flex justify-between items-center">
             <ul className="flex gap-4 place-content-center font-semibold">
               <li>
-                <a href="#" className="hover:text-blue-800">Home</a>
+                <a href="#" className="hover:text-blue-800 transition duration-200">Home</a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-800">Serviços</a>
+                <a href="#" className="hover:text-blue-800 transition duration-200">Serviços</a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-800">Clientes</a>
+                <a href="#" className="hover:text-blue-800 transition duration-200">Clientes</a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-800">Sobre nós</a>
+                <a href="#" className="hover:text-blue-800 transition duration-200">Sobre nós</a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-800">Planos</a>
+                <a href="#" className="hover:text-blue-800 transition duration-200">Planos</a>
               </li>
             </ul>
           </nav>

@@ -4,11 +4,11 @@ import managers from "../../public/managers-grow.png"
 export default function About() {
     return (
         <>
-            <div className="flex items-center justify-betwen h-96 px-24 bg-red-50">
+            <div className="flex j h-96 bg-red-50">
                 <div>
-                    <img src={managers} className="w-[500px]" alt="logo" />
+                    <img src={managers} className="w-[118rem] ml-8 mt-6" alt="logo" />
                 </div>
-                <div className="w-[400px]">
+                <div className="mt-6 mr-8">
                     <h1 className="text-3xl font-bold text-black">Sobre nós</h1>
                     <br />
                     <p className="text-wrap text-gray-500">

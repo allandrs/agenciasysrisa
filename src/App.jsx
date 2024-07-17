@@ -7,7 +7,7 @@ import Header from './components/header';
 import Services from './components/services';
 import About from "./components/about";
 import Clientes from "./components/clientes";
-import PlanTeste from "./components/planteste";
+import Plan from "./components/plan";
 import SecaoFormulario from "./components/secao_formulario"
 import Footer from "./components/footer"
 
@@ -20,7 +20,7 @@ const App = () => {
       <Services />
       <Clientes />
       <About />
-      <PlanTeste />
+      <Plan />
       <SecaoFormulario />
       <Footer />
     </>

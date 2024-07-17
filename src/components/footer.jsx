@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
     return (
         <>
-            <div className="h-96 pt-32">
+            <div className="h-96 pt-32 bg-blue-gray-500">
                 <div className="flex justify-between px-24">
                     <div className="flex flex-col w-64">
                         <img src="#" alt="" />

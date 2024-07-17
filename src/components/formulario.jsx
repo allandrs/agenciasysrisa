@@ -1,5 +1,5 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm, Controller } from 'react-hook-form';
 import '../style/formulario.css'
 import validator from 'validator'
 
@@ -17,7 +17,7 @@ export function Formulario() {
   };
 
   return (
-    <div className='app-container'>
+    <div className='app-container ml-8'>
       <div className='form-group'>
         <label>Nome</label>
         <input

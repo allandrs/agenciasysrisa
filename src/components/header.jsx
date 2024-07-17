@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/header.css";
 import Image from "../../public/vecteezy_iso.png";
+import Logo from "../../public/ARI.png";
 import { useState } from "react";
 
 export default function Header() {
@@ -10,41 +11,34 @@ export default function Header() {
     <>
       <header className="bg-red-50 min-h-128 w-full">
         <div className="flex justify-between border-b border-gray-400">
-          <a href="/" className="flex-initial mx-8">
+          <a href="/" className="flex-initial ml-8">
             <img
-              src="../../public/ARI.png"
+              src={Logo}
               alt="logo"
-              className="flex w-[150px] items-start"
+              className="flex w-[100px] items-start"
             />
           </a>
 
           <nav className="flex justify-between items-center">
-            <section className="MOBILE-MENU flex lg:hidden">
-              <div
-                className="HAMBURGER-ICON space-y-2"
-                onClick={() => setIsNavOpen((prev) => !prev)}
-              >
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              </div>
-            </section>
             <ul className="flex gap-4 place-content-center font-semibold">
               <li>
-                <a href="#">Home</a>
+                <a href="#" className="hover:text-blue-800">Home</a>
               </li>
               <li>
-                <a href="#">Serviços</a>
+                <a href="#" className="hover:text-blue-800">Serviços</a>
               </li>
               <li>
-                <a href="#">Clientes</a>
+                <a href="#" className="hover:text-blue-800">Clientes</a>
               </li>
               <li>
-                <a href="#">Sobre nós</a>
+                <a href="#" className="hover:text-blue-800">Sobre nós</a>
               </li>
               <li>
-                <a href="#">Planos</a>
+                <a href="#" className="hover:text-blue-800">Planos</a>
               </li>
             </ul>
           </nav>
+          
           <div className="w-[150px] flex items-center">
             <button className="bg-indigo-600 text-white font-semibold rounded-md w-28 h-8 mr-8">
               Contate-nos
@@ -52,7 +46,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="flex justify-between mx-8">
+        <div className="flex justify-between ml-8">
           <div>
             <div className="">
               <h1 className="text-3xl font-extrabold pt-6">

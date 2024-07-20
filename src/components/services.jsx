@@ -12,7 +12,7 @@ export default function Services() {
             conosco
           </h1>
         </div>
-        <div className="flex gap-32 justify-center pt-4 mx-8">
+        <div className="md:flex gap-32 justify-center pt-4 mx-8">
           <img src={Vilabeer} alt="logo" className="h-20" />
           <img src="https://via.placeholder.com/50" alt="logo" />
           <img src="https://via.placeholder.com/50" alt="logo" />
@@ -43,7 +43,7 @@ export default function Services() {
           </p>
         </div>
         <div className="mx-8">
-          <div className="flex justify-center space-x-3 pt-6">
+          <div className="md:flex justify-center space-x-3 pt-6">
             <Card
               titulo="Gerencie seus clientes e produtos"
               img="https://via.placeholder.com/40"

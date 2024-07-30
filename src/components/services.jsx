@@ -5,20 +5,24 @@ import Vilabeer from "../../public/Vila-Beer.png";
 export default function Services() {
   return (
     <>
-      <div className="h-[40rem] w-full ">
-        <div className="flex justify-center mx-8">
-          <h1 className="font-bold pt-6">
+      <div className=" h-[102rem] md:h-[40rem] w-full ">
+        <div className="flex justify-center mx-2 md:mx-8">
+          <h1 className="font-bold pt-6 text-nowrap">
             <span className="text-blue-500">Empresas</span> que estão crescendo
             conosco
           </h1>
         </div>
-        <div className="md:flex gap-32 justify-center pt-4 mx-8">
+        <div className="flex md:gap-32 space-y-5 md:space-y-0 pt-4 justify-center items-center mx-2 md:mx-8">
           <img src={Vilabeer} alt="logo" className="h-20" />
-          <img src="https://via.placeholder.com/50" alt="logo" />
-          <img src="https://via.placeholder.com/50" alt="logo" />
-          <img src="https://via.placeholder.com/50" alt="logo" />
+          
+          <img src="https://via.placeholder.com/50" alt="logo" className="h-20" />
+                    
+          <img src="https://via.placeholder.com/50" alt="logo" className="h-20" />
+          
+          <img src="https://via.placeholder.com/50" alt="logo" className="h-20" />
+          
         </div>
-        <div className="flex flex-col items-center pt-16 mx-8">
+        <div className="flex flex-col items-center pt-16 mx-2 md:mx-8">
           <h1 className="text-3xl font-bold text-black">
             O que <span className="text-orange-500">nós fazemos.</span>
           </h1>
@@ -43,7 +47,7 @@ export default function Services() {
           </p>
         </div>
         <div className="mx-8">
-          <div className="md:flex justify-center space-x-3 pt-6">
+          <div className="flex flex-col md:flex-row gap-3 justify-center items-center space-x-3 pt-6">
             <Card
               titulo="Gerencie seus clientes e produtos"
               img="https://via.placeholder.com/40"

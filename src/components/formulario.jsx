@@ -17,7 +17,7 @@ export function Formulario() {
   };
 
   return (
-    <div className='app-container ml-8'>
+    <div className='app-container'>
       <div className='form-group'>
         <label>Nome</label>
         <input

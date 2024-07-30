@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px 0;
-    width: 500px;
+    width: 350px;
   }
   
   .form-group label {
@@ -79,4 +79,10 @@
   .form-group button:hover {
     cursor: pointer;
     background-color: #61dbfb;
+  }
+
+  @media (min-width: 620px) {
+    .form-group {
+      width: 400px;
+    }
   }

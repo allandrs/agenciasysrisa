@@ -5,10 +5,10 @@ export default function About() {
     return (
         <>
             <div className="flex j h-96 bg-red-50">
-                <div>
-                    <img src={managers} className="w-[118rem] ml-8 mt-6" alt="logo" />
+                <div className="hidden md:block md:ml-8">
+                    <img src={managers} className=" w-[118rem] ml-8 mt-6" alt="logo" />
                 </div>
-                <div className="mt-6 mr-8">
+                <div className="ml-2 mt-6 mr-8 md: flex flex-col justify-center text-center">
                     <h1 className="text-3xl font-bold text-black">Sobre nós</h1>
                     <br />
                     <p className="text-wrap text-gray-500">

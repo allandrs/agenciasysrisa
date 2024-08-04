@@ -3,7 +3,7 @@ import React from "react";
 export default function CardPlan({ titulo, texto, icon }) {
   return (
     <>
-      <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none flex flex-col">
+      <div className="mx-auto mt-6 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none flex flex-col">
         <div className="p-8 sm:p-10 lg:flex-auto">
           <div className="flex">
             <p>{icon}</p>

@@ -4,7 +4,7 @@ import { Formulario } from './formulario'
 export default function SecaoFormulario() {
     return (
         <>  
-            <div className="mx-2 md:mx-8 flex justify-center">
+            <div className="mx-2 h-[40rem] md:mx-8 flex justify-center">
                 <div>
                     <Formulario />
                 </div>

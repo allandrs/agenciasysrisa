@@ -1,28 +1,26 @@
 import React from "react";
 import "../style/header.css";
 import Image from "../../public/vecteezy_iso.png";
-import Logo from "../../public/ARI.png";
+import Logo from "../../public/sysrisa_logo_edited.png";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 
 export default function Header() {
 
   return (
     <>
-      <header className="bg-red-50 min-h-96 md:min-h-128 w-full">
-        <div className="flex fixed bg-red-50 top-0 left-0 right-0  justify-between shadow items-center">
+      <header className="bg-[#0b112b] min-h-96 md:min-h-128 w-full ">
+        <div className="flex bg-[#0b112b] top-0 left-0 right-0  justify-between shadow-2xl items-center">
           <a href="/" className="flex-initial ml-1 md:ml-8">
-            <img src={Logo} alt="logo" className="flex w-[100px] items-start" />
+            <img src={Logo} alt="logo" className="flex w-[115px] items-start" />
           </a>
-
-
 
           <nav className="hidden md:block flex justify-between items-center">
 
-            <ul className="flex gap-4 place-content-center font-semibold">
+            <ul className="flex text-white gap-4 place-content-center font-semibold">
               <li>
                 <a
                   href="#"
-                  className="hover:text-indigo-600 transition duration-200 text-sm font-semibold"
+                  className="hover:text-[#06d2dd] transition duration-200 text-sm font-semibold"
                 >
                   Home
                 </a>
@@ -30,7 +28,7 @@ export default function Header() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-indigo-600 transition duration-200 text-sm"
+                  className="hover:text-[#06d2dd] transition duration-200 text-sm"
                 >
                   Serviços
                 </a>
@@ -38,7 +36,7 @@ export default function Header() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-indigo-600 transition duration-200 text-sm"
+                  className="hover:text-[#06d2dd] transition duration-200 text-sm"
                 >
                   Clientes
                 </a>
@@ -46,7 +44,7 @@ export default function Header() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-indigo-600 transition duration-200 text-sm"
+                  className="hover:text-[#06d2dd] transition duration-200 text-sm"
                 >
                   Sobre nós
                 </a>
@@ -54,7 +52,7 @@ export default function Header() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-indigo-600 transition duration-200 text-sm"
+                  className="hover:text-[#06d2dd] transition duration-200 text-sm"
                 >
                   Planos
                 </a>
@@ -63,7 +61,7 @@ export default function Header() {
           </nav>
 
           <div className="w-[150px] flex items-center invisible md:visible">
-            <button className="bg-indigo-600 text-white font-semibold rounded-md w-24 h-7 mr-8 text-sm">
+            <button className="bg-[#06d2dd] text-white font-semibold rounded-md w-24 h-7 mr-8 text-sm">
               Contate-nos
             </button>
           </div>
@@ -143,18 +141,18 @@ export default function Header() {
           <div className="mt-16">
             <div className="">
               <h1 className="text-3xl font-extrabold pt-6">
-                <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white mx-1/2 text-nowrap text-[27px] ">
+                <span className="box-decoration-clone bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] ">
                   Nós criamos o Sistema
                   <br />
                   ideal para seu <br /> negócio
                 </span>
               </h1>
-              <p className="pt-6 font-semibold">
+              <p className="pt-6 text-white font-semibold">
                 Seu parceiro de confiança para entrega garantida de software.
               </p>
             </div>
             <div className="flex space-x-2 pt-6">
-              <button className="bg-indigo-600 text-white text-sm rounded-md w-28 h-7 font-semibold">
+              <button className="bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold">
                 Começe agora
               </button>
             </div>

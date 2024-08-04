@@ -5,14 +5,14 @@ import Vilabeer from "../../public/Vila-Beer.png";
 export default function Services() {
   return (
     <>
-      <div className=" h-[102rem] md:h-[40rem] w-full ">
+      <div className="bg-[#0d1537] h-[102rem] md:h-[40rem] w-full ">
         <div className="flex justify-center mx-2 md:mx-8">
           <h1 className="font-bold pt-6 text-nowrap">
             <span className="text-blue-500">Empresas</span> que estão crescendo
             conosco
           </h1>
         </div>
-        <div className="flex md:gap-32 space-y-5 md:space-y-0 pt-4 justify-center items-center mx-2 md:mx-8">
+        <div className="flex md:gap-32 space-y-5 md:space-y-0 pt-4 justify-center mx-2 md:mx-8">
           <img src={Vilabeer} alt="logo" className="h-20" />
           
           <img src="https://via.placeholder.com/50" alt="logo" className="h-20" />
@@ -47,7 +47,7 @@ export default function Services() {
           </p>
         </div>
         <div className="mx-8">
-          <div className="flex flex-col md:flex-row gap-3 justify-center items-center space-x-3 pt-6">
+          <div className="flex flex-col justify-center items-center md:flex-row gap-3 pt-6">
             <Card
               titulo="Gerencie seus clientes e produtos"
               img="https://via.placeholder.com/40"
@@ -56,6 +56,7 @@ export default function Services() {
             <Card
               titulo="Gerencie agendamentos"
               img="https://via.placeholder.com/40"
+              texto="Corte custos Aumente a produtividade"
             />
             <Card
               titulo="Relatórios de vendas"

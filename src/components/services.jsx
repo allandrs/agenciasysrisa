@@ -5,14 +5,14 @@ import Vilabeer from "../../public/Vila-Beer.png";
 export default function Services() {
   return (
     <>
-      <div className="bg-[#0d1537] h-[102rem] md:h-[40rem] w-full ">
+      <div className="bg-[#0b112b] h-[102rem] md:h-[43rem] w-full ">
         <div className="flex justify-center mx-2 md:mx-8">
-          <h1 className="font-bold pt-6 text-nowrap">
-            <span className="text-blue-500">Empresas</span> que estão crescendo
+          <h1 className="font-bold pt-6 text-nowrap text-white">
+            <span className="text-[#06d2dd]">Empresas</span> que estão crescendo
             conosco
           </h1>
         </div>
-        <div className="flex md:gap-32 space-y-5 md:space-y-0 pt-4 justify-center mx-2 md:mx-8">
+        <div className="flex md:gap-32 space-y-5 md:space-y-0 mt-8 justify-center mx-2 md:mx-8">
           <img src={Vilabeer} alt="logo" className="h-20" />
           
           <img src="https://via.placeholder.com/50" alt="logo" className="h-20" />
@@ -23,8 +23,8 @@ export default function Services() {
           
         </div>
         <div className="flex flex-col items-center pt-16 mx-2 md:mx-8">
-          <h1 className="text-3xl font-bold text-black">
-            O que <span className="text-orange-500">nós fazemos.</span>
+          <h1 className="text-3xl font-bold text-white">
+            O que <span className="text-[#06d2dd]">nós fazemos.</span>
           </h1>
           <br />
           <p className="text-wrap text-gray-500">

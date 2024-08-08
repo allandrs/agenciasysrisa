@@ -5,11 +5,9 @@ export default function About() {
     return (
         <>
             <div className="flex h-96 bg-[#0d1537]">
-                <div className="hidden md:block md:ml-8">
-                    <img src={managers} className=" w-[118rem] ml-8 mt-6" alt="logo" />
-                </div>
-                <div className="ml-2 mt-6 mr-8 md: flex flex-col justify-center text-center">
-                    <h1 className="text-3xl font-bold text-black">Sobre nós</h1>
+                <div className="ml-2 mt-2 mr-8  flex flex-col justify-center text-center relative">
+                    <img src="/public/managers-grow.png" className="absolute  w-48" alt="" />
+                    <h1 className="text-3xl font-bold text-light-blue-500">Sobre nós</h1>
                     <br />
                     <p className="text-wrap text-gray-500">
                     Tudo começa com a <span className="font-bold">compreensão do problema e dos objetivos do seu negócio.</span> Se você tiver código existente, concluímos uma aquisição. Caso contrário, criamos um plano para construir seu aplicativo do zero.

@@ -10,7 +10,7 @@ module.exports = withMT({
       },
       minWidth: {
         '128': '32rem'
-      }
+      },
     },
   },
   plugins: [],

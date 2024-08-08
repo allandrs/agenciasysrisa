@@ -13,7 +13,7 @@ export default function CardPlan({ titulo, texto, icon }) {
           </div>
           <p className="mt-6 text-base leading-7 text-gray-600">{texto}</p>
           <div className="mt-10 flex items-center gap-x-4">
-            <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
+            <h4 className="flex-none text-sm font-semibold leading-6 text-[#06d2dd]">
               What’s included
             </h4>
             <div className="h-px flex-auto bg-gray-100"></div>
@@ -24,7 +24,7 @@ export default function CardPlan({ titulo, texto, icon }) {
           >
             <li className="flex gap-x-3">
               <svg
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-[#06d2dd]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 aria-hidden="true"
@@ -39,7 +39,7 @@ export default function CardPlan({ titulo, texto, icon }) {
             </li>
             <li className="flex gap-x-3">
               <svg
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-[#06d2dd]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 aria-hidden="true"
@@ -54,7 +54,7 @@ export default function CardPlan({ titulo, texto, icon }) {
             </li>
             <li className="flex gap-x-3">
               <svg
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-[#06d2dd]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 aria-hidden="true"
@@ -69,7 +69,7 @@ export default function CardPlan({ titulo, texto, icon }) {
             </li>
             <li className="flex gap-x-3">
               <svg
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-[#06d2dd]"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 aria-hidden="true"
@@ -100,7 +100,7 @@ export default function CardPlan({ titulo, texto, icon }) {
               </p>
               <a
                 href="#"
-                className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="mt-10 block w-full rounded-md bg-[#06d2dd] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#5ce9f0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500"
               >
                 Get access
               </a>

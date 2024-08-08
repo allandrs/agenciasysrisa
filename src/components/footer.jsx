@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
     return (
         <>
-            <div className="h-96 pt-16 bg-gray-500">
+            <div className="h-96 pt-16 bg-[#0b112b] text-white">
                 <div className="w-14">
                         <img src="https://via.placeholder.com/40" alt="" />
                 </div>

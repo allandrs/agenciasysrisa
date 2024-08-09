@@ -9,9 +9,17 @@ export default function Header() {
   return (
     <>
       <header >
-        <div className="bg-[#0b112b]  min-h-128 w-full ">
+        <div className="bg-[#0b112b] relative  min-h-128 w-full ">
 
-          <div className="flex bg-[#0b112b] top-0 left-0 right-0  justify-between shadow-2xl items-center ">
+          <div className="imagem-header absolute flex center mt-10">
+              <img src="/public/geometric-1732847.jpg" className="opacity-20 invisible md:visible w-[600px] h-[350px] md:w-auto md:h-auto" alt="" />
+              {/* <img src="/public/code-1262237_1920.png" className="md:invisible" alt="imagem" /> */}
+          </div>  
+          <div className="imagem-header absolute md:invisible flex center mt-10">
+              <img src="/public/code-1262237_1920.png" className="md:invisible opacity-20 w-full h-[472px]" alt="imagem" />
+          </div>  
+
+          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 absolute justify-between shadow-2xl items-center ">
             <a href="/" className="flex-initial ml-1 md:ml-8">
               <img src={Logo} alt="logo" className="flex w-[115px] items-start" />
             </a>
@@ -139,7 +147,7 @@ export default function Header() {
 
           </div>
 
-          <div className="flex ml-3 gap-4 md:ml-8 relative ">
+          <div className="flex ml-3 gap-4 md:ml-8  ">
             <div className="caixa-copy">
               <div className="mt-14">
                   <h1 className="text-3xl font-extrabold pt-6">
@@ -159,13 +167,10 @@ export default function Header() {
                   </button>
               </div>
             </div>
-            <div className="imagem-header mt-10">
-              <img src="/public/pixlr-image-generator-598c997d-9e5f-4408-b231-74f809581608-Photoroom.png" className="opacity-40" alt="" />
-            </div>            
+        
           </div>
-          
         </div>
-
+  
       </header>
     </>
   );

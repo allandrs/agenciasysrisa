@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <header >
-        <div className="bg-[#0b112b] relative  min-h-128 w-full ">
+        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full ">
 
           {/* <div className="imagem-header absolute flex center mt-10 invisible md:visible">
               <img src="/public/geometric-1732847.jpg" className="opacity-20 bg-cover md:h-[350px]" alt="" />
@@ -146,7 +146,7 @@ export default function Header() {
           </div>
 
           <div className="divHeader w-full h-full relative">
-            <img src='/public/software-developer-6521720.jpg' className="absolute img-header opacity-[.2] invisible md:visible" alt="" />
+            <img src='/public/software-developer-6521720.jpg' className="absolute img-header opacity-[.2] invisible md:visible " alt="" />
             <img src="/public/software-developer-6521720-vertical.jpg" className="absolute img-header opacity-[.2] visible md:invisible" alt="" />
             <div className="flex ml-3 gap-4 md:ml-8  w-full h-full">
               <div className="caixa-copy absolute">

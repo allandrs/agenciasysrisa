@@ -5,7 +5,7 @@ import Vilabeer from "../../public/Vila-Beer.png";
 export default function Services() {
   return (
     <>
-      <div className="bg-[#0b112b] h-[102rem] md:h-[40rem] w-full absolute">
+      <div className="bg-[#0b112b] h-[122rem] md:h-[44rem] w-full ">
         <div className="flex justify-center mx-2 md:mx-8">
           <h1 className="font-bold pt-6 text-nowrap text-white">
             <span className="text-[#06d2dd]">Empresas</span> que estão crescendo

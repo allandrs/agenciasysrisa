@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/header.css";
-import Image from "../../public/vecteezy_iso.png";
 import Logo from "../../public/sysrisa_logo_edited.png";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 
@@ -11,15 +10,14 @@ export default function Header() {
       <header >
         <div className="bg-[#0b112b] relative  min-h-128 w-full ">
 
-          <div className="imagem-header absolute flex center mt-10">
-              <img src="/public/geometric-1732847.jpg" className="opacity-20 invisible md:visible w-[600px] h-[350px] md:w-auto md:h-auto" alt="" />
-              {/* <img src="/public/code-1262237_1920.png" className="md:invisible" alt="imagem" /> */}
+          {/* <div className="imagem-header absolute flex center mt-10 invisible md:visible">
+              <img src="/public/geometric-1732847.jpg" className="opacity-20 bg-cover md:h-[350px]" alt="" />
           </div>  
-          <div className="imagem-header absolute md:invisible flex center mt-10">
+          <div className="imagem-header-mobile absolute md:invisible flex center mt-10 bg-cover">
               <img src="/public/code-1262237_1920.png" className="md:invisible opacity-20 w-full h-[472px]" alt="imagem" />
-          </div>  
+          </div>   */}
 
-          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 absolute justify-between shadow-2xl items-center ">
+          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative justify-between shadow-2xl items-center bg-contain ">
             <a href="/" className="flex-initial ml-1 md:ml-8">
               <img src={Logo} alt="logo" className="flex w-[115px] items-start" />
             </a>
@@ -147,28 +145,33 @@ export default function Header() {
 
           </div>
 
-          <div className="flex ml-3 gap-4 md:ml-8  ">
-            <div className="caixa-copy">
-              <div className="mt-14">
-                  <h1 className="text-3xl font-extrabold pt-6">
-                    <span className="box-decoration-clone bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] ">
-                      Nós criamos o Sistema
-                      <br />
-                      ideal para seu <br /> negócio
-                    </span>
-                  </h1>
-                  <p className="pt-6 text-white font-semibold">
-                    Seu parceiro de confiança para entrega garantida de software.
-                  </p>
-              </div>
-              <div className="flex space-x-2 pt-6">
-                  <button className="bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer">
-                    Começe agora
-                  </button>
-              </div>
+          <div className="divHeader w-full h-full relative">
+            <img src='/public/software-developer-6521720.jpg' className="absolute img-header opacity-[.2] invisible md:visible" alt="" />
+            <img src="/public/software-developer-6521720-vertical.jpg" className="absolute img-header opacity-[.2] visible md:invisible" alt="" />
+            <div className="flex ml-3 gap-4 md:ml-8  w-full h-full">
+              <div className="caixa-copy absolute">
+                <div className="mt-14">
+                    <h1 className="text-3xl font-extrabold pt-6">
+                      <span className="box-decoration-clone bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] ">
+                        Nós criamos o Sistema
+                        <br />
+                        ideal para seu <br /> negócio
+                      </span>
+                    </h1>
+                    <p className="pt-6 text-white font-semibold">
+                      Seu parceiro de confiança para entrega garantida de software.
+                    </p>
+                </div>
+                <div className="flex space-x-2 pt-6">
+                    <button className="bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer">
+                      Começe agora
+                    </button>
+                </div>
             </div>
         
           </div>
+          </div>
+
         </div>
   
       </header>

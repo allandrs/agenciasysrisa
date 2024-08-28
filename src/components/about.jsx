@@ -4,7 +4,7 @@ import managers from "../../public/managers-grow.png"
 export default function About() {
     return (
         <>
-            <div className="flex h-96 bg-[#0d1537]">
+            <div className="flex h-96 bg-[#0d1537] relative">
                 <div className="ml-2 mt-2 mr-8  flex flex-col justify-center text-center relative">
                     <img src="/public/managers-grow.png" className="absolute  w-48" alt="" />
                     <h1 className="text-3xl font-bold text-light-blue-500">Sobre nós</h1>

@@ -146,15 +146,16 @@ export default function Header() {
           </div>
 
           <div className="divHeader w-full h-full relative">
-            <img src='/public/software-developer-6521720.jpg' className="absolute img-header opacity-[.2] invisible md:visible " alt="" />
-            <img src="/public/software-developer-6521720-vertical.jpg" className="absolute img-header opacity-[.2] visible md:invisible" alt="" />
+            <img src='./public/software-developer-6521720-croped.jpg' className="absolute img-header opacity-[.2] invisible md:visible " alt="" />
+            <img src="./public/software-developer-6521720-vertical.jpg" className="absolute img-header opacity-[.2] visible md:invisible" alt="" />
+            <img src="./public/freelance-work-7308505_1920-croped.png" className="absolute opacity-[.8] right-20 top-16 animate-pulse " alt="" />
             <div className="flex ml-3 gap-4 md:ml-8  w-full h-full">
               <div className="caixa-copy absolute">
                 <div className="mt-14">
-                    <h1 className="text-3xl font-extrabold pt-6">
-                      <span className="box-decoration-clone bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] ">
+                    <h1 className="box-h1-decoration-clone text-3xl font-extrabold pt-6 ">
+                      <span className="box-decoration-clone bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] transition">
                         Nós criamos o Sistema
-                        <br />
+                        <br/>
                         ideal para seu <br /> negócio
                       </span>
                     </h1>

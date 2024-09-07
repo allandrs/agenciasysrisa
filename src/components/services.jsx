@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./card";
+import Card from "./card_service";
 import Vilabeer from "../../public/Vila-Beer.png";
 import Elmiz from "../../public/black-clean.png";
 import Darkz from "../../public/darkz.png";
@@ -16,8 +16,8 @@ export default function Services() {
             conosco
           </h1>
         </div>
-        <div className="flex md:gap-32 space-y-5 md:space-y-0 mt-8 justify-center mx-2 md:mx-8">
-          <img src={Vilabeer} alt="logo" className="h-20" />
+        <div className="flex gap-2 md:gap-32 mt-8 justify-center mx-2 md:mx-8">
+          <img src={Vilabeer} alt="logo" className="h-20 rounded-full"/>
           
           <img src={Elmiz} alt="logo" className="h-20 rounded-full bg-contain" />
                     
@@ -31,43 +31,32 @@ export default function Services() {
             O que <span className="text-[#06d2dd]">nós fazemos.</span>
           </h1>
           <br />
-          <p className="text-wrap text-gray-500 ">
-            Tudo começa com a{" "}
-            <span className="font-extrabold">
-              compreensão do problema e dos objetivos do seu negócio.
-            </span>{" "}
-            Em seguida criamos um plano para construir seu aplicativo do zero.
-          </p>
-          <br />
-          <p className="text-wrap text-gray-500">
-            A partir daí, selecionamos e designamos membros de confiança da
-            nossa equipe para o seu projeto. Depois de construir uma equipe de
-            produtos coesa,{" "}
-            <span className="font-extrabold">
-              fornecemos serviços abrangentes de desenvolvimento de sistemas
-            </span>{" "}
-            sob demanda.
-          </p>
+
         </div>
         <div className="mx-8">
           <div className="flex flex-col justify-center items-center md:flex-row gap-3 pt-6">
             <Card
-              titulo="Gerencie seus clientes e produtos"
+              titulo="Sistema de gerenciamento de "
               img="https://via.placeholder.com/40"
-              texto="Corte custos Aumente a produtividade"
+              texto="Corte "
             />
             <Card
-              titulo="Gerencie agendamentos"
+              titulo="Sistema de agendamentos"
+              img="./public/calendar-7041843.png"
+              texto1="Corte custos e aumente a produtividade, automatizando o processo de agendamento do seu negócio, com mensagens e lembretes automáticos."
+              // texto2="Corte custos Aumente a produtividade \n continuação"
+              // texto3="Corte custos Aumente a produtividade \n continuação"
+              // texto4="Corte custos Aumente a produtividade \n continuação"
+              />
+            <Card
+              titulo="Desenvolvimento de site"
               img="https://via.placeholder.com/40"
-              texto="Corte custos Aumente a produtividade"
+              texto1="Permita que o seu cliente conheça seu negócio pelo canal online."
             />
             <Card
-              titulo="Relatórios de vendas"
+              titulo="E-commerce"
               img="https://via.placeholder.com/40"
-            />
-            <Card
-              titulo="Mensagens e lembretes automáticos"
-              img="https://via.placeholder.com/40"
+              texto1="Criação de lojas virtuais com recursos modernos e mais avançados do mercado, loja própria sem comissões por venda e com aplicativo integrado para vender online."
             />
           </div>
         </div>

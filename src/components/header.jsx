@@ -1,29 +1,27 @@
 import React from "react";
 import "../style/header.css";
 import Logo from "../../public/sysrisa_logo_edited.png";
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import softdeveloper from "../../public/software-developer-6521720-croped.jpg";
+import verticalsdeveloper from "../../public/software-developer-6521720-vertical.jpg";
+import freela from "../../public/freelance-work-7308505_1920-croped.png";
+import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 
 export default function Header() {
-
   return (
     <>
-      <header >
+      <header>
         <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full ">
 
-          {/* <div className="imagem-header absolute flex center mt-10 invisible md:visible">
-              <img src="/public/geometric-1732847.jpg" className="opacity-20 bg-cover md:h-[350px]" alt="" />
-          </div>  
-          <div className="imagem-header-mobile absolute md:invisible flex center mt-10 bg-cover">
-              <img src="/public/code-1262237_1920.png" className="md:invisible opacity-20 w-full h-[472px]" alt="imagem" />
-          </div>   */}
-
           <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative justify-between shadow-2xl items-center bg-contain ">
-            <a href="/" className="flex-initial ml-1 md:ml-8">
-              <img src={Logo} alt="logo" className="flex w-[115px] items-start" />
+            <a href="/" className="flex-initial ml-2 md:ml-8">
+              <img
+                src={Logo}
+                alt="logo"
+                className="flex w-[115px] items-start"
+              />
             </a>
 
             <nav className="hidden md:block flex justify-between items-center">
-
               <ul className="flex text-white gap-4 place-content-center font-semibold">
                 <li>
                   <a
@@ -74,15 +72,15 @@ export default function Header() {
               </button>
             </div>
 
-
             <Menu as="div" className="inline-block text-left md:hidden mr-2">
               <div>
-                <MenuButton  
+                <MenuButton
                   data-collapse-toggle="navbar-default"
                   type="button"
                   className="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                   aria-controls="navbar-default"
-                  aria-expanded="false">
+                  aria-expanded="false"
+                >
                   <span className="sr-only">Open main menu</span>
                   <svg
                     className="w-5 h-5"
@@ -142,39 +140,45 @@ export default function Header() {
                 </div>
               </MenuItems>
             </Menu>
-
           </div>
 
-          <div className="divHeader w-full h-full relative">
-            <img src='./public/software-developer-6521720-croped.jpg' className="absolute img-header opacity-[.2] invisible md:visible " alt="" />
-            <img src="./public/software-developer-6521720-vertical.jpg" className="absolute img-header opacity-[.2] visible md:invisible" alt="" />
-            <img src="./public/freelance-work-7308505_1920-croped.png" className="absolute opacity-[.8] right-20 top-16 animate-pulse " alt="" />
-            <div className="flex ml-3 gap-4 md:ml-8  w-full h-full">
-              <div className="caixa-copy absolute">
-                <div className="mt-14">
-                    <h1 className="box-h1-decoration-clone text-3xl font-extrabold pt-6 ">
-                      <span className="box-decoration-clone bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] transition">
-                        Nós criamos o Sistema
-                        <br/>
-                        ideal para seu <br /> negócio
-                      </span>
-                    </h1>
-                    <p className="pt-6 text-white font-semibold">
-                      Seu parceiro de confiança para entrega garantida de software.
-                    </p>
+          <div className="divHeader w-full h-full relative ">
+            <img
+              src={softdeveloper}
+              className="absolute img-header opacity-[.2] invisible md:visible "
+              alt=""
+            />
+            <img
+              src={verticalsdeveloper}
+              className="absolute img-header opacity-[.2] visible md:invisible"
+              alt=""
+            />
+            <img
+              src={freela}
+              className="absolute opacity-[.8] right-20 top-16 invisible md:visible"
+              alt=""
+            />
+            <div className="flex  gap-4 mx-3 md:mx-8   w-full h-full">
+              <div className="container-copy  absolute ">
+                <h1 className="text  box-h1-decoration-clone text-3xl font-extrabold ">
+                  <span className="box-decoration-clone  bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] transition">
+                    Nós criamos o Sistema
+                    <br />
+                    ideal para seu <br /> negócio
+                  </span>
+                </h1>
+                <p className="text-subtitle  text-white font-semibold">
+                  Seu parceiro de confiança para entrega garantida de software.
+                </p>
+                <div className="button-title flex justify-start">
+                  <button className=" mt-6 bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer animate-pulse">
+                    Começe agora
+                  </button>
                 </div>
-                <div className="flex space-x-2 pt-6">
-                    <button className="bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer">
-                      Começe agora
-                    </button>
-                </div>
+              </div>
             </div>
-        
           </div>
-          </div>
-
         </div>
-  
       </header>
     </>
   );

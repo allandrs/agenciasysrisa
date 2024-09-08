@@ -9,10 +9,10 @@ import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 export default function Header() {
   return (
     <>
-      <header>
-        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full ">
+      <header className="border-none">
+        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full border-none">
 
-          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative justify-between shadow-2xl items-center bg-contain ">
+          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative justify-between shadow-2xl items-center bg-contain border-none">
             <a href="/" className="flex-initial ml-2 md:ml-8">
               <img
                 src={Logo}
@@ -145,7 +145,7 @@ export default function Header() {
           <div className="divHeader w-full h-full relative ">
             <img
               src={softdeveloper}
-              className="absolute img-header opacity-[.2] invisible md:visible "
+              className="absolute img-header opacity-[.2] invisible md:visible"
               alt=""
             />
             <img

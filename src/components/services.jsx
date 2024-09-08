@@ -9,8 +9,8 @@ import Devfinance from "../../public/devfinance.png";
 export default function Services() {
   return (
     <>
-      <div className="bg-[#0b112b] h-[122rem] md:h-[44rem] w-full relative">
-        <div className="flex justify-center mx-2 md:mx-8">
+      <div className="bg-[#0b112b] h-[122rem] md:h-[44rem] w-full relative border-none">
+        <div className="flex justify-center mx-2 md:mx-8 border-none">
           <h1 className="font-bold pt-6 text-nowrap text-white">
             <span className="text-[#06d2dd] ">Empresas</span> que estão crescendo
             conosco

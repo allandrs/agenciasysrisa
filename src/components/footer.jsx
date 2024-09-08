@@ -1,13 +1,16 @@
 import React from "react";
+import Logo from "../../public/sysrisa_logo_edited.png";
+
 
 export default function Footer() {
     return (
         <>
-            <div className="h-96 pt-16 bg-[#0b112b] text-white">
-                <div className="w-14">
-                        <img src="https://via.placeholder.com/40" alt="" />
+            <div className="h-78 pt-8 bg-[#0b112b] text-white flex flex-col justify-center ">
+                <div className="flex justify-start">
+                        <img className="h-14 ml-2 md:md-8 flex w-[115px] items-start" src={Logo} alt="logo"/>
                 </div>
-                <div className="flex justify-between px-24">
+
+                <div className="flex ml-2 md:md-8 gap-8 mt-6">
                     <div className="flex flex-col text-sm">  
                         <h1 className="text-xl">Serviços</h1>
                         <a href="#">Criação de sites</a>
@@ -41,9 +44,10 @@ export default function Footer() {
                         </div>
                     </div>  
                 </div>
-                <div className="flex justify-between items-center px-24 pt-10">
+
+                <div className="flex justify-between items-center ml-2 md:md-8 pt-10">
                     <div>
-                        <h1>All rights reserved</h1>
+                        <h1 className="">All rights reserved</h1>
                     </div>
  
                 </div>

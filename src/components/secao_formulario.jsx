@@ -5,7 +5,7 @@ export default function SecaoFormulario() {
     return (
         <>  
             <div className="flex flex-col mx-2 h-[40rem] md:mx-8 flex justify-center items-center relative">
-                <img src="/public/freelance-work-7308505_1920.png" className='absolute opacity-9' alt="" /> 
+                {/* <img src="/public/freelance-work-7308505_1920.png" className='absolute opacity-9' alt="" />  */}
                 <div>
                     <h1 className="text-2xl font-semibold md:text-3xl md:font-normal">Como podemos ajudar você?</h1>
                     <h2 className="text-sm mt-3">Entre em contato conosco. Adorariamos ouvir você.</h2>

@@ -45,11 +45,11 @@ export default function Footer() {
                     </div>  
                 </div>
 
-                <div className="flex justify-between items-center ml-2 md:md-8 pt-10">
+                <div className="flex justify-center items-center ml-2 md:md-8 pt-10">
                     <div>
-                        <h1 className="">All rights reserved</h1>
+                        <h1 className="text-sm">Desenvolvido por Agência SYSRISA. Todos os direitos reservados © </h1>
                     </div>
- 
+
                 </div>
             </div>
         </>

@@ -4,6 +4,8 @@ import Vilabeer from "../../public/Vila-Beer.png";
 import Elmiz from "../../public/black-clean.png";
 import Darkz from "../../public/darkz.png";
 import Devfinance from "../../public/devfinance.png";
+import Ecommerce from "../../public/shopping-removebg.png";
+import Website from "../../public/site-removebg-preview.png"
 
 
 export default function Services() {
@@ -36,9 +38,9 @@ export default function Services() {
         <div className="mx-8">
           <div className="flex flex-col justify-center items-center md:flex-row gap-3 pt-6">
             <Card
-              titulo="Sistema de gerenciamento de "
+              titulo=""
               img="https://via.placeholder.com/40"
-              texto="Corte "
+              texto1="Impulsione os negócios com desenvolvimento de aplicativos da Web de última geração, PWAs e plataformas modernas em nuvem. Soluções perfeitas, escaláveis ​​e personalizadas para transformação digital - Sistema de gerenciamento de estoque \n- Sistema de gerenciamento de caixa - Sistema de gerencianeto de frota "
             />
             <Card
               titulo="Sistema de agendamentos"
@@ -50,12 +52,12 @@ export default function Services() {
               />
             <Card
               titulo="Desenvolvimento de site"
-              img="https://via.placeholder.com/40"
+              img={Website}
               texto1="Permita que o seu cliente conheça seu negócio pelo canal online."
             />
             <Card
               titulo="E-commerce"
-              img="https://via.placeholder.com/40"
+              img={Ecommerce}
               texto1="Criação de lojas virtuais com recursos modernos e mais avançados do mercado, loja própria sem comissões por venda e com aplicativo integrado para vender online."
             />
           </div>

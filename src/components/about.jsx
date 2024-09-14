@@ -20,7 +20,7 @@ export default function About() {
                     </p>
                     <br/>
                     <p className="text-wrap text-white">
-                    Por que escolher a [Nome da Agência]?
+                    Por que escolher a Agência SYSRISA?
 
                     <span className="font-bold text-white flex flex-col text-left ml:20 md:ml-48">
                     <br />🚀 Experiência e inovação: Mais de [X] anos criando sites de alto impacto.

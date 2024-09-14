@@ -161,14 +161,15 @@ export default function Header() {
             <div className="flex  gap-4 mx-3 md:mx-8   w-full h-full">
               <div className="container-copy  absolute ">
                 <h1 className="text  box-h1-decoration-clone text-3xl font-extrabold ">
-                  <span className="box-decoration-clone  bg-gradient-to-r from-[#06d2dd] to-indigo-600 text-white mx-1/2 text-nowrap text-[27px] transition">
-                    Nós criamos o Sistema
+                  <span className="box-decoration-clone   text-white mx-1/2 text-nowrap text-[27px] transition">
+                    Criação de <span className="box-decoration-clone  text-[#06d2dd] mx-1/2 text-nowrap text-[27px] transition"> Sites </span> Personalizados    
                     <br />
-                    ideal para seu <br /> negócio
+                    para Impulsionar Seu <br /> 
+                    Negócio
                   </span>
                 </h1>
-                <p className="text-subtitle  text-white font-semibold">
-                  Seu parceiro de confiança para entrega garantida de software.
+                <p className="text-subtitle  text-[#06d2dd] font-semibold">
+                  Seu parceiro de confiança para entrega garantida do site ideal.
                 </p>
                 <div className="button-title flex justify-start">
                   <button className=" mt-6 bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer animate-pulse">

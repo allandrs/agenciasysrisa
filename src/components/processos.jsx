@@ -4,7 +4,7 @@ import Card from "./card_service.jsx"
 export default function Processos() {
   return (
     <>
-      <div className="flex md:h-96 justify-center items-center bg-blue-gray-500 relative">
+      <div className="flex md:h-[600px] justify-center items-center bg-white relative my-24 ">
         <div className="flex flex-col md:flex-row gap-16 md:h-72">
           <Card 
           titulo="1 Briefing" 

@@ -4,8 +4,9 @@ import Vilabeer from "../../public/Vila-Beer.png";
 import Elmiz from "../../public/black-clean.png";
 import Darkz from "../../public/darkz.png";
 import Devfinance from "../../public/devfinance.png";
-import Ecommerce from "../../public/shopping-removebg.png";
+import Responsive from "../../public/responsive-removebg-preview.png";
 import Website from "../../public/site-removebg-preview.png"
+import SEO from "../../public/seo-removebg-preview.png"
 
 
 export default function Services() {
@@ -30,7 +31,7 @@ export default function Services() {
         </div>
         <div className="flex flex-col items-center pt-16 mx-2 md:mx-8">
           <h1 className="text-3xl font-extrabold text-white">
-            O que <span className="text-[#06d2dd]">nós fazemos.</span>
+          O seu site <span className="text-[#06d2dd]">se destacando</span> na internet
           </h1>
           <br />
 
@@ -38,27 +39,28 @@ export default function Services() {
         <div className="mx-8">
           <div className="flex flex-col justify-center items-center md:flex-row gap-3 pt-6">
             <Card
-              titulo=""
-              img="https://via.placeholder.com/40"
-              texto1="Impulsione os negócios com desenvolvimento de aplicativos da Web de última geração, PWAs e plataformas modernas em nuvem. Soluções perfeitas, escaláveis ​​e personalizadas para transformação digital - Sistema de gerenciamento de estoque \n- Sistema de gerenciamento de caixa - Sistema de gerencianeto de frota "
+              titulo="Responsividade"
+              img={Responsive}
+              texto1="Mais de 60% dos acessos à internet são feitos por dispositivos móveis. Se o seu site não está perfeitamente ajustado para todos os tamanhos de tela, você está perdendo visitantes e vendas."
             />
             <Card
-              titulo="Sistema de agendamentos"
-              img="./public/calendar-7041843.png"
-              texto1="Corte custos e aumente a produtividade, automatizando o processo de agendamento do seu negócio, com mensagens e lembretes automáticos."
+              titulo="SEO"
+              img={SEO}
+              texto1="Seu site pode ter potencial, mas sem o SEO correto, ele fica invisível nas pesquisas do google. A otimização de SEO irá atrair o público certo gerando mais conversões."
               // texto2="Corte custos Aumente a produtividade \n continuação"
               // texto3="Corte custos Aumente a produtividade \n continuação"
               // texto4="Corte custos Aumente a produtividade \n continuação"
               />
-            <Card
-              titulo="Desenvolvimento de site"
+              <Card
+              titulo="Performance"
               img={Website}
-              texto1="Permita que o seu cliente conheça seu negócio pelo canal online."
+              texto1="Cada segundo conta! Sites lentos frustram usuários e, pior ainda, diminuem suas vendas. A otimização de performance garante que seu site carregue em tempo recorde, oferecendo uma navegação rápida e fluida para seus clientes."
+              
             />
             <Card
-              titulo="E-commerce"
-              img={Ecommerce}
-              texto1="Criação de lojas virtuais com recursos modernos e mais avançados do mercado, loja própria sem comissões por venda e com aplicativo integrado para vender online."
+              titulo="Design"
+              img={Website}
+              texto1=" Navegação simples e agradável para manter seus visitantes por mais tempo, focado na experiência do usuário (UX), assim como um bom design de interface do usuário (UI) é muito importante no sucesso na captação de clientes."
             />
           </div>
         </div>

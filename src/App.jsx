@@ -19,9 +19,9 @@ const App = () => {
     <>
       <Header />
       <Services />
-      <Clientes />
-      <Processos />
       <About />
+      {/* <Clientes /> */}
+      <Processos />
       {/* <Plan /> */}
       <SecaoFormulario />
       <Footer />

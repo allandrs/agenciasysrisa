@@ -30,8 +30,8 @@ export default function Services() {
           
         </div>
         <div className="flex flex-col items-center pt-16 mx-2 md:mx-8">
-          <h1 className="text-3xl font-extrabold text-white">
-          O seu site <span className="text-[#06d2dd]">se destacando</span> na internet
+          <h1 className="text-3xl font-extrabold text-white text-center">
+          O seu site se<span className="text-[#06d2dd]"> destacando</span> na internet
           </h1>
           <br />
 

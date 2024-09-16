@@ -10,9 +10,9 @@ export default function Header() {
   return (
     <>
       <header className="border-none">
-        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full border-none">
+        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full border-none ">
 
-          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative justify-between shadow-2xl items-center bg-contain border-none">
+          <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative  justify-between shadow-2xl items-center bg-contain border-none">
             <a href="/" className="flex-initial ml-2 md:ml-8">
               <img
                 src={Logo}

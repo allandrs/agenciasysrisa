@@ -74,7 +74,7 @@ export function Formulario() {
         <label>Mensagem</label>
         <input {...register("message")} 
         />
-      </div>      
+      </div>    
 
       <div className='form-group'>  
         <button type="submit" onClick={() => handleSubmit(onSubmit)()}>Enviar</button>

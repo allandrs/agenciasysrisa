@@ -1,23 +1,28 @@
 import React from "react";
-import Aboutus from "../../public/aboutus.png"
+import Aboutus from "../../public/undraw_building_websites_i78t.svg"
 
 export default function About() {
     return (
         <>
-            <div className="flex h-[900px] md:h-[900px] bg-[#0b112b] relative">
-                <div className="ml-2 mr-8  flex flex-col justify-center text-center relative">
-                    <div className="flex items-center justify-center mb-10">
-                        <img src={Aboutus} className="relative w-64 animate-pulse opacity-80" alt="" />
+            <div className="flex h-[900px] md:h-[500px] bg-[#0b112b] ">
+                <div className="mx-8 flex flex-col md:flex-row justify-center text-left">
+                    
+                    <div className="md:w-1/2 mt-16">  
+                        <div>
+                            <h1 className="text-3xl font-bold text-[#06d2dd]">Sobre <span className="text-white">nós</span></h1>
+                        </div>
+                        <p className="text-gray-400 mt-5">
+                        Na <span className="text-[#06d2dd] font-bold">Agência SYSRISA</span>, somos apaixonados por criar experiências digitais que <span className="text-white font-bold">transformam negócios.</span> Com uma equipe de especialistas em design e desenvolvimento de sites, nossa missão é entregar sites que não apenas impressionam visualmente, mas também geram resultados concretos.
+                        </p>
+
+                        <p className="mt-5 text-gray-400">
+                            <span className="text-white font-bold ">Acreditamos que um site bem-feito é a base para o sucesso online.</span> Por isso, trabalhamos lado a lado com nossos clientes para entender suas necessidades e traduzir suas ideias em soluções personalizadas, inovadoras e otimizadas para performance. Do design à entrega final, garantimos que cada detalhe esteja alinhado aos seus objetivos de negócio.
+                        </p>
                     </div>
-                    <h1 className="text-3xl font-bold text-[#06d2dd]">Sobre nós</h1>
-                    <br/>
-                    <p className="text-wrap text-white">
-                    Na Agência SYSRISA, somos apaixonados por criar experiências digitais que transformam negócios. Com uma equipe de especialistas em design, desenvolvimento sites, nossa missão é entregar sites que não apenas impressionam visualmente, mas também geram resultados concretos.
 
-                    <br /><span className="font-bold text-[#06d2dd]">Acreditamos que um site bem-feito é a base para o sucesso online. Por isso, trabalhamos lado a lado com nossos clientes para entender suas necessidades e traduzir suas ideias em soluções personalizadas, inovadoras e otimizadas para performance. Do design à entrega final, garantimos que cada detalhe esteja alinhado aos seus objetivos de negócio.
-
-                    </span> .
-                    </p>
+                    <div className="flex items-center justify-center mb-10 md:w-1/2 mt-8 md:mt-0">
+                        <img src={Aboutus} className="relative w-96 animate-pulse opacity-80" alt="" />
+                    </div>
 
                 </div>
             </div>

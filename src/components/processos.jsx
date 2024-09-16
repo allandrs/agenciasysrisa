@@ -13,8 +13,8 @@ import CardProcessos from "./card_processos.jsx";
 export default function Processos() {
   return (
     <>
-      <div className="flex  w-full md:h-[1800px] justify-center bg-white relative mb-24 md:mb-14 ">
-        <div className="w-[800px] bg-gradient-to-r from-[#65b4ff] via-[#d5eced] to-[#c2ebed] rounded-xl mt-6">
+      <div className="flex  w-full h-[2400px] md:h-[1800px] justify-center bg-white relative mb-24 md:mb-14 ">
+        <div className="w-[800px] bg-gradient-to-r from-[#65b4ff] via-[#d5eced] to-[#c2ebed] rounded-xl mt-6 mx-2">
           <div className="text-4xl mt-8 text-center">
             <h1 className="">Como trabalhamos</h1>
           </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import Logo from "../../public/sysrisa_logo_edited.png";
+import Wpp from "../../public/whatsapp.png";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { fa-brands fa-instagram } from '@awesome.me/kit-KIT_CODE/icons'
 
 
 export default function Footer() {
@@ -23,12 +26,17 @@ export default function Footer() {
                             <h1 className="text-lg">Siga-nos</h1>
                             <div className="flex gap-2">
                                 <img src="https://via.placeholder.com/50" alt="logo" />
+                                
+  
+                                {/* <FontAwesomeIcon icon="fa-brands fa-instagram" style={{color: "#ffffff",}} /> */}
+
+
                                 <img src="https://via.placeholder.com/50" alt="logo" />
                                 <img src="https://via.placeholder.com/50" alt="logo" />
                             </div>
                     </div>
                     <div className="fixed top-[580px] right-[210px] md:top-[500px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
-                        Wpp
+                        <img src={Wpp} alt="" />
                     </div>
                 </div>
 

@@ -21,7 +21,7 @@ export default function About() {
                     </div>
 
                     <div className="flex items-center justify-center mb-10 md:w-1/2 mt-8 md:mt-0">
-                        <img src={Aboutus} className="relative w-96 animate-pulse opacity-80" alt="" />
+                        <img src={Aboutus} className="relative w-96 animate-pulse" alt="" />
                     </div>
 
                 </div>

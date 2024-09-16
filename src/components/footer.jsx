@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../public/sysrisa_logo_edited.png";
 import Wpp from "../../public/whatsapp.png";
+import Instagram from "../../public/instagram.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { fa-brands fa-instagram } from '@awesome.me/kit-KIT_CODE/icons'
 
@@ -25,12 +26,8 @@ export default function Footer() {
                     <div className="flex flex-col gap-1">
                             <h1 className="text-lg">Siga-nos</h1>
                             <div className="flex gap-2">
-                                <img src="https://via.placeholder.com/50" alt="logo" />
+                                <img src={Instagram} className="h-10" alt="logo" />
                                 
-  
-                                {/* <FontAwesomeIcon icon="fa-brands fa-instagram" style={{color: "#ffffff",}} /> */}
-
-
                                 <img src="https://via.placeholder.com/50" alt="logo" />
                                 <img src="https://via.placeholder.com/50" alt="logo" />
                             </div>

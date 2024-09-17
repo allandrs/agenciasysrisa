@@ -6,6 +6,7 @@ import Meeting from "../../public/undraw_meeting_re_i53h.svg";
 import Arrow from "../../public/arrow-158377_1280-removebg-preview.png";
 import Approval from "../../public/undraw_accept_request_re_d81h.svg"
 import Test from "../../public/undraw_split_testing_l1uw.svg"
+import Build from "../../public/build.png"
 
 //components
 import CardProcessos from "./card_processos.jsx";
@@ -15,8 +16,10 @@ export default function Processos() {
     <>
       <div className="flex  w-full h-[2400px] md:h-[1800px] justify-center bg-white relative mb-24 md:mb-14 ">
         <div className="w-[800px] bg-gradient-to-r from-[#65b4ff] via-[#d5eced] to-[#c2ebed] rounded-xl mt-6 mx-2">
-          <div className="text-4xl mt-8 text-center">
+          <div className="flex justify-center items-center shrink-0 gap-4 text-4xl mt-8 text-center">
+            <div className="invisible">di</div>
             <h1 className="">Como trabalhamos</h1>
+            <img src={Build} className="h-8 flex-none" alt="" />
           </div>
           <div className="md:grid md:grid-cols-2 mx-2 md-w-96 justify-center place-items-center items-center md:h-72 mt-10 ">
             <CardProcessos

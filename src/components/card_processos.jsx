@@ -3,7 +3,7 @@ import React from "react";
 export default function CardProcessos({titulo, subtitulo, img, texto}) {
     return (
         <>
-            <div>
+            <div className="mt-8 flex flex-col items-center">
                 <h1 className="font-extrabold">{titulo}</h1>
                 <h2>{subtitulo}</h2>
                 <img src={img} className="w-[15rem] my-1" alt="" />

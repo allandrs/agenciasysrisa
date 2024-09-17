@@ -158,8 +158,8 @@ export default function Header() {
               className="absolute opacity-[.8] right-20 top-16 invisible md:visible"
               alt=""
             />
-            <div className="flex  gap-4 mx-3 md:mx-8   w-full h-full">
-              <div className="container-copy  absolute ">
+            <div className="flex  gap-4 mx-4 md:mx-8   w-full h-full">
+              <div className="container-copy  absolute mx-2">
                 <h1 className="text  box-h1-decoration-clone text-3xl font-extrabold ">
                   <span className="box-decoration-clone   text-white mx-1/2 text-nowrap text-[27px] transition">
                     Criação de <span className="box-decoration-clone  text-[#06d2dd] mx-1/2 text-nowrap text-[27px] transition"> Sites </span> Personalizados    

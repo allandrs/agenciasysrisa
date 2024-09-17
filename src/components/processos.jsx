@@ -1,4 +1,6 @@
 import React from "react";
+import styled from 'styled-components'
+
 
 //images
 import Gears from "../../public/Gear@1x-3.4s-200px-200px.svg";
@@ -12,13 +14,18 @@ import Build from "../../public/build.png"
 import CardProcessos from "./card_processos.jsx";
 
 export default function Processos() {
+  
+  // const CardProcessos = styled.margin`
+  //   margin: 2rem;
+  // `
+
   return (
     <>
-      <div className="flex  w-full h-[2400px] md:h-[1800px] justify-center bg-white relative mb-24 md:mb-14 ">
+      <div className="flex  w-full h-[2500px] md:h-[1800px] justify-center bg-white relative mb-24 md:mb-14 ">
         <div className="w-[800px] bg-gradient-to-r from-[#65b4ff] via-[#d5eced] to-[#c2ebed] rounded-xl mt-6 mx-2">
           <div className="flex justify-center items-center shrink-0 gap-4 text-4xl mt-8 text-center">
             <div className="invisible">di</div>
-            <h1 className="">Como funciona</h1>
+            <h1 className="text-3xl md:text-4xl">Como funciona</h1>
             <img src={Build} className="h-10 flex-none" alt="" />
           </div>
           <div className="md:grid md:grid-cols-2 mx-2 md-w-96 justify-center place-items-center items-center md:h-72 mt-10 ">
@@ -52,11 +59,6 @@ export default function Processos() {
               subtitulo="Garantindo a perfeição"
               img={Test}
               texto="Antes de ir ao ar, realizamos uma série de testes rigorosos. Verificamos o desempenho em diferentes dispositivos e navegadores, testamos a velocidade de carregamento e eliminamos qualquer erro para garantir que tudo funcione perfeitamente."
-            />
-            <img
-              src={Arrow}
-              className="w-32 md:h-14  rotate-[64deg] md:rotate-0 scale-x-[-1] "
-              alt=""
             />
             <CardProcessos
               titulo="5º Passo - Entrega"

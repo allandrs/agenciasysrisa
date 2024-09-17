@@ -12,7 +12,7 @@ import SEO from "../../public/seo-removebg-preview.png"
 export default function Services() {
   return (
     <>
-      <div className="bg-[#0b112b] h-[110rem] md:h-[44rem] w-full relative border-none">
+      <div className="bg-[#0b112b] h-[160rem] md:h-[68rem] w-full relative border-none">
         <div className="flex justify-center mx-2 md:mx-8 border-none">
           <h1 className="font-bold pt-6 text-nowrap text-white">
             <span className="text-[#06d2dd] ">Empresas</span> que estão crescendo
@@ -37,7 +37,7 @@ export default function Services() {
 
         </div>
         <div className="mx-8">
-          <div className="flex flex-col justify-center items-center md:flex-row gap-3 pt-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 md:flex-row mt-10">
             <Card
               titulo="Responsividade"
               img={Responsive}
@@ -60,7 +60,17 @@ export default function Services() {
             <Card
               titulo="Design"
               img={Website}
-              texto1=" Navegação simples e agradável para manter seus visitantes por mais tempo, focado na experiência do usuário (UX), assim como um bom design de interface do usuário (UI) é muito importante no sucesso na captação de clientes."
+              texto1="Navegação simples e agradável para manter seus visitantes por mais tempo, focado na experiência do usuário (UX), assim como um bom design de interface do usuário (UI) é muito importante no sucesso na captação de clientes."
+            />
+            <Card
+              titulo="Integração de APIs"
+              img={Website}
+              texto1="Com a integração de APIs, você pode conectar sua plataforma a diversos serviços e ferramentas externas, automatizando processos e criando uma experiência mais fluida e eficiente para seus usuários."
+            />
+            <Card
+              titulo="Integração de APIs"
+              img={Website}
+              texto1="Com a integração de APIs, você pode conectar sua plataforma a diversos serviços e ferramentas externas, automatizando processos e criando uma experiência mais fluida e eficiente para seus usuários."
             />
           </div>
         </div>

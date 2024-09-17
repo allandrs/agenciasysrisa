@@ -18,8 +18,8 @@ export default function Processos() {
         <div className="w-[800px] bg-gradient-to-r from-[#65b4ff] via-[#d5eced] to-[#c2ebed] rounded-xl mt-6 mx-2">
           <div className="flex justify-center items-center shrink-0 gap-4 text-4xl mt-8 text-center">
             <div className="invisible">di</div>
-            <h1 className="">Como trabalhamos</h1>
-            <img src={Build} className="h-8 flex-none" alt="" />
+            <h1 className="">Como funciona</h1>
+            <img src={Build} className="h-10 flex-none" alt="" />
           </div>
           <div className="md:grid md:grid-cols-2 mx-2 md-w-96 justify-center place-items-center items-center md:h-72 mt-10 ">
             <CardProcessos

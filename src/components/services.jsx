@@ -1,5 +1,10 @@
 import React from "react";
+import styled from "styled-components";
+
+//components
 import Card from "./card_service";
+
+//images
 import Vilabeer from "../../public/Vila-Beer.png";
 import Elmiz from "../../public/black-clean.png";
 import Darkz from "../../public/darkz.png";
@@ -7,12 +12,21 @@ import Devfinance from "../../public/devfinance.png";
 import Responsive from "../../public/responsive-removebg-preview.png";
 import Website from "../../public/site-removebg-preview.png"
 import SEO from "../../public/seo-removebg-preview.png"
+import Design from "../../public/removebg.png"
+import Api from "../../public/infografico-de-api-de-gradiente.png"
+import Manutencao from "../../public/manutencao.png"
+
+
+// const Card = styled.Card.img.Manutencao`
+//   width: 30px;
+// `
 
 
 export default function Services() {
+    
   return (
     <>
-      <div className="bg-[#0b112b] h-[160rem] md:h-[68rem] w-full relative border-none">
+      <div className="bg-[#0b112b] h-[160rem] md:h-[98rem] w-full relative border-none flex flex-col items-center">
         <div className="flex justify-center mx-2 md:mx-8 border-none">
           <h1 className="font-bold pt-6 text-nowrap text-white">
             <span className="text-[#06d2dd] ">Empresas</span> que estão crescendo
@@ -29,6 +43,7 @@ export default function Services() {
           <img src={Devfinance} alt="logo" className="h-20 rounded-full" />
           
         </div>
+
         <div className="flex flex-col items-center pt-16 mx-2 md:mx-8">
           <h1 className="text-3xl font-extrabold text-white text-center">
           O que fazemos para<span className="text-[#06d2dd]"> destacar </span>seu site na internet
@@ -36,8 +51,8 @@ export default function Services() {
           <br />
 
         </div>
-        <div className="mx-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 md:flex-row mt-10">
+        <div className="mx-8 w-[48rem]">
+          <div className="grid gap-5 grid-cols-1 md:grid-cols-3 place-items-center mt-10">
             <Card
               titulo="Responsividade"
               img={Responsive}
@@ -59,18 +74,19 @@ export default function Services() {
             />
             <Card
               titulo="Design"
-              img={Website}
+              img={Design}
               texto1="Navegação simples e agradável para manter seus visitantes por mais tempo, focado na experiência do usuário (UX), assim como um bom design de interface do usuário (UI) é muito importante no sucesso na captação de clientes."
             />
             <Card
               titulo="Integração de APIs"
-              img={Website}
+              img={Api}
               texto1="Com a integração de APIs, você pode conectar sua plataforma a diversos serviços e ferramentas externas, automatizando processos e criando uma experiência mais fluida e eficiente para seus usuários."
             />
             <Card
-              titulo="Integração de APIs"
-              img={Website}
-              texto1="Com a integração de APIs, você pode conectar sua plataforma a diversos serviços e ferramentas externas, automatizando processos e criando uma experiência mais fluida e eficiente para seus usuários."
+              titulo="Suporte e manutenção"
+              img={Manutencao}
+              texto1="Seu site é um dos ativos mais valiosos da sua marca. Para garantir que ele funcione perfeitamente 24h/7dias, você precisa de uma equipe de especialistas pronta para resolver qualquer problema, atualizar funcionalidades e manter seu site seguro."
+              man
             />
           </div>
         </div>

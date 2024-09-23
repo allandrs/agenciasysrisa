@@ -26,14 +26,14 @@ export default function Services() {
     
   return (
     <>
-      <div className="bg-[#0b112b] h-[160rem] md:h-[98rem] w-full relative border-none flex flex-col items-center">
-        <div className="flex justify-center mx-2 md:mx-8 border-none">
+      <div className="bg-[#0b112b] h-[168rem] md:h-[92rem] w-full relative border-none flex flex-col items-center">
+        <div className="flex justify-center mx-2 md:mx-8 border-none mt-20">
           <h1 className="font-bold pt-6 text-nowrap text-white">
             <span className="text-[#06d2dd] ">Empresas</span> que estão crescendo
             conosco
           </h1>
         </div>
-        <div className="flex gap-2 md:gap-32 mt-8 justify-center mx-2 md:mx-8">
+        <div className="flex gap-2 md:gap-32 mt-12 justify-center mx-2 md:mx-8">
           <img src={Vilabeer} alt="logo" className="h-20 rounded-full"/>
           
           <img src={Elmiz} alt="logo" className="h-20 rounded-full bg-contain" />
@@ -44,7 +44,7 @@ export default function Services() {
           
         </div>
 
-        <div className="flex flex-col items-center pt-16 mx-2 md:mx-8">
+        <div className="flex flex-col items-center pt-16 mx-2 md:mx-8 mt-10">
           <h1 className="text-3xl font-extrabold text-white text-center">
           O que fazemos para<span className="text-[#06d2dd]"> destacar </span>seu site na internet
           </h1>

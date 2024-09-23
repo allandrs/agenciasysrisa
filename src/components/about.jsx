@@ -4,7 +4,7 @@ import Aboutus from "../../public/undraw_building_websites_i78t.svg"
 export default function About() {
     return (
         <>
-            <div className="flex h-[900px] md:h-[500px] bg-[#0b112b] ">
+            <div className="flex h-[900px] md:h-[500px] bg-[#38393c] ">
                 <div className="mx-8 flex flex-col md:flex-row justify-center text-left">
                     
                     <div className="md:w-1/2 mt-16">  

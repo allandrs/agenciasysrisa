@@ -109,7 +109,7 @@ export default function Header() {
               className="absolute opacity-[.8] right-20 top-16 invisible md:visible"
               alt=""
             />
-            <div className="flex absolute  mx-4 md:mx-8 mt-16">
+            <div className="flex absolute  mx-4 md:mx-8 mt-14">
               <div className="container-copy  ml-[7rem] md:ml-[19rem] w-[15rem] md:w-[40rem]">
                 <h1 className="text  box-h1-decoration-clone  text-xl md:text-2xl   font-extrabold w-full">
                   <span className="box-decoration-clone   text-white transition">

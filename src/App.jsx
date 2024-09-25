@@ -24,7 +24,7 @@ const App = () => {
 
       <About />
       <Processos />
-      <SecaoFormulario />
+      {/* <SecaoFormulario /> */}
       <Footer />
     </>
   )

@@ -1,18 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+
 import "../style/header.css";
+
+import DropDownMenu from "./dropdownmenu.jsx";
+
+//images
 import Logo from "../../public/sysrisa_logo_edited.png";
 import softdeveloper from "../../public/software-developer-6521720-croped.jpg";
 import verticalsdeveloper from "../../public/software-developer-6521720-vertical.jpg";
 import freela from "../../public/freelance-work-7308505_1920-croped.png";
-import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 
 export default function Header() {
+
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <>
-      <header className="border-none">
-        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full border-none ">
+      <header>
+        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[628px] w-full ">
 
           <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative  justify-between shadow-2xl items-center bg-contain border-none">
+            
             <a href="/" className="flex-initial ml-2 md:ml-8">
               <img
                 src={Logo}
@@ -66,80 +74,22 @@ export default function Header() {
               </ul>
             </nav>
 
-            <div className="w-[150px] flex items-center invisible md:visible">
+            <div className="md:w-[150px] flex items-center invisible md:visible">
               <button className="bg-[#06d2dd] text-white font-semibold rounded-md w-24 h-7 mr-8 text-sm">
                 Contate-nos
               </button>
             </div>
 
-            <Menu as="div" className=" text-left md:hidden mr-2">
-              <div>
-                <MenuButton
-                  data-collapse-toggle="navbar-default"
-                  type="button"
-                  className="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                  aria-controls="navbar-default"
-                  aria-expanded="false"
-                >
-                  <span className="sr-only">Open main menu</span>
-                  <svg
-                    className="w-5 h-5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 17 14"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M1 1h15M1 7h15M1 13h15"
-                    />
-                  </svg>
-                </MenuButton>
-              </div>
+            <div className=" md:hidden">
+              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}>TESTE</span>
+            </div>
 
-              <MenuItems
-                transition
-                className="aboslute right-2 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
-              >
-                <div className="py-1">
-                  <MenuItem>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                    >
-                      Serviços
-                    </a>
-                  </MenuItem>
-                  <MenuItem>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                    >
-                      Clientes
-                    </a>
-                  </MenuItem>
-                  <MenuItem>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                    >
-                      Sobre nós
-                    </a>
-                  </MenuItem>
-                  <MenuItem>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
-                    >
-                      Planos
-                    </a>
-                  </MenuItem>
-                </div>
-              </MenuItems>
-            </Menu>
+            {
+              openMenu && <DropDownMenu />
+            }
+
+
+
           </div>
 
           <div className="divHeader w-full h-full relative ">
@@ -158,17 +108,16 @@ export default function Header() {
               className="absolute opacity-[.8] right-20 top-16 invisible md:visible"
               alt=""
             />
-            <div className="flex relative gap-4 mx-4 md:mx-8   w-full h-full">
-              <div className="container-copy  absolute mx-2">
-                <h1 className="text  box-h1-decoration-clone text-3xl font-extrabold ">
-                  <span className="box-decoration-clone   text-white mx-1/2 text-nowrap text-[27px] transition">
-                    Criação de <span className="box-decoration-clone  text-[#06d2dd] mx-1/2 text-nowrap text-[27px] transition"> Sites </span> Personalizados    
-                    <br />
-                    para Impulsionar Seu <br /> 
+            <div className="flex absolute  mx-4 md:mx-8 w-full ">
+              <div className="container-copy  ml-[115px] w-[15rem]">
+                <h1 className="text  box-h1-decoration-clone  text-xl   font-extrabold ">
+                  <span className="box-decoration-clone   text-white transition">
+                    Criação de <span className="box-decoration-clone  text-[#06d2dd] transition"> Sites </span>  Personalizados   
+                    para Impulsionar Seu 
                     Negócio
                   </span>
                 </h1>
-                <p className="text-subtitle  text-[#06d2dd] font-semibold">
+                <p className="text-subtitle text-xs text-[#06d2dd] font-semibold">
                   Seu parceiro de confiança para entrega garantida do site ideal.
                 </p>
                 <div className="button-title flex justify-start">

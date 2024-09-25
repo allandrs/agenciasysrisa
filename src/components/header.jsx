@@ -118,7 +118,7 @@ export default function Header() {
                   </span>
                 </h1>
                 <p className="text-subtitle text-[12px] md:text-sm text-[#06d2dd] font-semibold mt-4 w-full">
-                  Seu parceiro de confiança para entrega garantida do site ideal.
+                  Seu parceiro de confiança para entrega garantida de sites.
                 </p>
                 <div className="button-title flex justify-start">
                   <button className=" mt-6 bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer animate-pulse">

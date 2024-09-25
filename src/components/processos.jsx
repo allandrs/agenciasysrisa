@@ -8,7 +8,7 @@ import Arrow from "../../public/arrow-158377_1280-removebg-preview.png";
 import Approval from "../../public/undraw_accept_request_re_d81h.svg"
 import Test from "../../public/undraw_split_testing_l1uw.svg"
 import Build from "../../public/build.png"
-import Finish from "../../public/undraw_completed_m9ci.svg"
+import Finish from "../../public/undraw_confirmation_re_b6q5.svg"
 
 //components
 import CardProcessos from "./card_processos.jsx";

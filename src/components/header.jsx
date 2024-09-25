@@ -9,6 +9,7 @@ import Logo from "../../public/sysrisa_logo_edited.png";
 import softdeveloper from "../../public/software-developer-6521720-croped.jpg";
 import verticalsdeveloper from "../../public/software-developer-6521720-vertical.jpg";
 import freela from "../../public/freelance-work-7308505_1920-croped.png";
+import dropdown from "../../public/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
 
 export default function Header() {
 
@@ -81,7 +82,7 @@ export default function Header() {
             </div>
 
             <div className=" md:hidden">
-              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}>TESTE</span>
+              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}><img src={dropdown} className="mr-1" alt="menu"></img></span>
             </div>
 
             {
@@ -108,16 +109,15 @@ export default function Header() {
               className="absolute opacity-[.8] right-20 top-16 invisible md:visible"
               alt=""
             />
-            <div className="flex absolute  mx-4 md:mx-8 w-full ">
-              <div className="container-copy  ml-[115px] w-[15rem]">
-                <h1 className="text  box-h1-decoration-clone  text-xl   font-extrabold ">
+            <div className="flex absolute  mx-4 md:mx-8 mt-10">
+              <div className="container-copy  ml-[7rem] md:ml-[19rem] w-[15rem] md:w-[40rem]">
+                <h1 className="text  box-h1-decoration-clone  text-xl md:text-2xl   font-extrabold w-full">
                   <span className="box-decoration-clone   text-white transition">
                     Criação de <span className="box-decoration-clone  text-[#06d2dd] transition"> Sites </span>  Personalizados   
-                    para Impulsionar Seu 
-                    Negócio
+                    para Impulsionar Seu Negócio
                   </span>
                 </h1>
-                <p className="text-subtitle text-xs text-[#06d2dd] font-semibold">
+                <p className="text-subtitle text-[12px] md:text-sm text-[#06d2dd] font-semibold mt-4 w-full">
                   Seu parceiro de confiança para entrega garantida do site ideal.
                 </p>
                 <div className="button-title flex justify-start">

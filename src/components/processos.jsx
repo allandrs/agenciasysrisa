@@ -58,7 +58,7 @@ export default function Processos() {
               titulo="5º Passo - Entrega"
               subtitulo="Seu site no ar!"
               img={Finish}
-              texto="Com os testes finalizados e sua aprovação, é hora de lançar o site!" texto2="Publicamos a plataforma e monitoramos o funcionamento                 inicial para garantir que esteja tudo rodando perfeitamente. Agora você tem uma presença digital sólida, pronta para gerar resultados."
+              texto="Com os testes finalizados e sua aprovação, é hora de lançar o site ou sistema!" texto2="Publicamos a plataforma e monitoramos o funcionamento                 inicial para garantir que esteja tudo rodando perfeitamente. Agora você tem uma presença digital sólida, pronta para gerar resultados."
               
             />
           </div>

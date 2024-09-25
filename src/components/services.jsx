@@ -26,8 +26,8 @@ export default function Services() {
     
   return (
     <>
-      <div className="bg-[#0b112b] h-[168rem] md:h-[92rem] w-full relative flex flex-col items-center">
-        <div className="flex justify-center mx-2 md:mx-4 mt-20">
+      <div className="bg-[#0b112b] h-[168rem] md:h-[84rem] w-full relative flex flex-col items-center">
+        <div className="flex justify-center mx-2 md:mx-4 mt-16">
           <h1 className="font-bold pt-6 text-nowrap text-white">
             <span className="text-[#06d2dd] ">Empresas</span> que estão crescendo
             conosco

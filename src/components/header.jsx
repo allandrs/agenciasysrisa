@@ -121,7 +121,7 @@ export default function Header() {
                   Seu parceiro de confiança para entrega garantida de resultados.
                 </p>
                 <div className="button-title flex justify-start">
-                  <button className=" mt-6 bg-[#06d2dd] text-white text-sm rounded-md w-28 h-7 font-semibold transition cursor-pointer animate-pulse">
+                  <button className=" mt-6 bg-[#06d2dd] text-white text-xs rounded-md w-28 h-7 font-semibold transition cursor-pointer animate-pulse">
                     Começe agora
                   </button>
                 </div>

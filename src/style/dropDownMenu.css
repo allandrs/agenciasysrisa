@@ -1,7 +1,7 @@
 .dropDownMenu {
     position: absolute;
-    top: 4.5rem;
-    right: 1.5rem;
+    top: 4.1rem;
+    right: 0.5rem;
     width: 120px;
     padding: 15px;
     border-radius: 8px;
@@ -13,7 +13,7 @@
     content: '';
     position: absolute;
     top: -0.7rem;
-    right: 1.1rem;
+    right: 0.6rem;
     width: 20px;
     height: 20px;
     transform: rotate(45deg);

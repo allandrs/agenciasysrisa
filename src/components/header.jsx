@@ -82,7 +82,7 @@ export default function Header() {
             </div>
 
             <div className=" md:hidden">
-              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}><img src={dropdown} className="mr-1" alt="menu"></img></span>
+              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}><img src={dropdown} className="mr-2" alt="menu"></img></span>
             </div>
 
             {

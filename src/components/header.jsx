@@ -72,7 +72,7 @@ export default function Header() {
               </button>
             </div>
 
-            <Menu as="div" className="inline-block text-left md:hidden mr-2">
+            <Menu as="div" className=" text-left md:hidden mr-2">
               <div>
                 <MenuButton
                   data-collapse-toggle="navbar-default"
@@ -102,7 +102,7 @@ export default function Header() {
 
               <MenuItems
                 transition
-                className="absolute right-2 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
+                className="aboslute right-2 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
               >
                 <div className="py-1">
                   <MenuItem>

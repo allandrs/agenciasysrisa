@@ -1,4 +1,8 @@
 import React from "react";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+
+import "../style/chatbox.css";
+
 import Logo from "../../public/sysrisa_logo_edited.png";
 import Wpp from "../../public/whatsapp.png";
 import Instagram from "../../public/instagram.png";
@@ -45,12 +49,12 @@ export default function Footer() {
                                 <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a>
                             </div>
                     </div>
-                    <div className="fixed top-[580px] right-[210px] md:top-[500px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
+                    {/* <div className="fixed top-[580px] right-[210px] md:top-[500px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
                         <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente.">
                         
                             <img src={Wpp} alt="" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="footerfooter flex justify-center items-center mt-12 pt-2     border-solid border-gray-500 border-t-[0.1px] border-opacity-30">
@@ -59,6 +63,14 @@ export default function Footer() {
                     </div>
 
                 </div>
+                <FloatingWhatsApp 
+                phoneNumber="55997323505" 
+                chatMessage="Olá, como posso ajudar?"
+                accountName="Atendimento SYSRISA"
+                statusMessage="Respondemos dentro de alguns minutos"
+                chatboxHeight={270}
+                notificationDelay={60}
+                />
             </div>
         </>
     )

@@ -16,7 +16,7 @@ import Time from "../../public/time.png";
 export default function Footer() {
     return (
         <>
-            <div className="h-[440px] md:h-[200px]  bg-[#0b112b] text-white flex flex-col justify-center ">
+            <div className="h-[410px] md:h-[198px]  bg-[#0b112b] text-white flex flex-col justify-center ">
 
                 <div className="flex flex-col justify-center place-items-start mx-10 md:mx-2 md:flex-row gap-6 mt-6">
                     <div>

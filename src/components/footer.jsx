@@ -1,5 +1,5 @@
 import React from "react";
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+// import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 import "../style/chatbox.css";
 
@@ -16,9 +16,9 @@ import Time from "../../public/time.png";
 export default function Footer() {
     return (
         <>
-            <div className="h-[410px] md:h-[198px]  bg-[#0b112b] text-white flex flex-col justify-center ">
+            <div className="h-[410px] md:h-[160px]  bg-[#0b112b] text-white flex flex-col justify-center">
 
-                <div className="flex flex-col justify-center place-items-start mx-10 md:mx-2 md:flex-row gap-6 mt-6">
+                <div className="flex flex-col justify-center place-items-start mx-10 md:mx-2 md:flex-row gap-12 mt-6">
                     <div>
                             <img className="h-20" src={Logo} alt="logo"/>
                     </div>
@@ -28,16 +28,13 @@ export default function Footer() {
         
                         <div className="flex gap-1 items-center">
                             <img src={Mail} className="h-6" alt="" />
-                            <p className="text-xs">contato@</p>
+                            <p className="text-xs">contato@sysrisa.com</p>
                         </div>
                         <div className="flex gap-1 items-center">
                             <img src={Wpp} className="h-6" alt="" />
                             <p className="text-xs"> (55) 99732-3505</p>
                         </div>
-                        <div className="flex gap-1 items-center">
-                        <img src={Time} className="h-6" alt="" />
-                        <p className="text-xs">Segunda à Sexta-feira: 08:00 às 18:00.</p>
-                        </div>
+
                     </div>
 
                     <div className="flex flex-col gap-1">
@@ -49,6 +46,7 @@ export default function Footer() {
                                 <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a>
                             </div>
                     </div>
+                    
                     {/* <div className="fixed top-[580px] right-[210px] md:top-[500px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
                         <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente.">
                         
@@ -56,21 +54,23 @@ export default function Footer() {
                         </a>
                     </div> */}
                 </div>
+                
 
-                <div className="footerfooter flex justify-center items-center mt-12 pt-2     border-solid border-gray-500 border-t-[0.1px] border-opacity-30">
+                <div className="footerfooter flex justify-center items-center p-2 mt-6 border-solid border-gray-500 border-t-[0.1px] border-opacity-30">
                     <div>
                         <h1 className="text-xs text-gray-500 flex-wrap mx-2">Desenvolvido por Agência SYSRISA | Todos os direitos reservados © | Políticas de privacidade  </h1>
                     </div>
-
+                    
                 </div>
-                <FloatingWhatsApp 
+                {/* <FloatingWhatsApp 
                 phoneNumber="55997323505" 
                 chatMessage="Olá, como posso ajudar?"
                 accountName="Atendimento SYSRISA"
                 statusMessage="Respondemos dentro de alguns minutos"
-                chatboxHeight={270}
+                chatboxHeight={280}
                 notificationDelay={60}
-                />
+                /> */}
+
             </div>
         </>
     )

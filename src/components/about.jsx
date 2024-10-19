@@ -7,7 +7,7 @@ export default function About() {
             <div className="flex h-[900px] md:h-[600px] bg-[#38393c] ">
                 <div className="mx-8 flex flex-col md:flex-row justify-center text-left">
                     
-                    <div className="md:w-1/2 flex flex-col justify-center">  
+                    <div className="md:w-1/2 flex flex-col justify-center pt-2">  
                         <div>
                             <h1 className="text-3xl font-bold text-[#06d2dd]">Sobre <span className="text-white">nós</span></h1>
                         </div>

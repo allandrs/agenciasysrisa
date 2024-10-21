@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRef } from "react";
 
 import "../style/header.css";
 
@@ -15,6 +16,11 @@ export default function Header() {
 
   const [openMenu, setOpenMenu] = useState(false);
 
+  const ref = useRef(null);
+  const handleClick = () => {
+    ref.current?.scrollIntoView({behavior: 'smooth'})
+  };
+  
   return (
     <>
       <header>
@@ -36,6 +42,7 @@ export default function Header() {
                   <a
                     href="#"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm font-semibold"
+                    
                   >
                     Home
                   </a>
@@ -44,6 +51,7 @@ export default function Header() {
                   <a
                     href="#"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
+                    onClick={handleClick}
                   >
                     Serviços
                   </a>

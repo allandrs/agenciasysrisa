@@ -1,10 +1,20 @@
 import React from "react";
+import { useImperativeHandle, forwardRef, useRef } from "react";
+
 import Aboutus from "../../public/undraw_building_websites_i78t.svg"
 
-export default function About() {
+const About = forwardRef((props, ref) => {
+
+    const compRef = useRef();
+    useImperativeHandle(ref, () => ({
+      scrollIntoView: () => {
+        compRef.current.scrollIntoView({behavior: "smooth", block: "start"});
+        }
+    })); 
+
     return (
         <>
-            <div className="flex h-[950px] md:h-[600px] bg-[#38393c] ">
+            <div className="flex h-[950px] md:h-[600px] bg-[#38393c]" ref={compRef}> 
                 <div className="mx-8 flex flex-col md:flex-row justify-center text-left">
                     
                     <div className="md:w-1/2 flex flex-col justify-center pt-2">  
@@ -30,4 +40,8 @@ export default function About() {
 
         </>
     )
-}
+
+})
+
+export default About;
+

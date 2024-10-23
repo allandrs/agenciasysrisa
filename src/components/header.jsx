@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useRef } from "react";
 
 import "../style/header.css";
 
@@ -12,15 +11,17 @@ import verticalsdeveloper from "../../public/software-developer-6521720-vertical
 import freela from "../../public/freelance-work-7308505_1920-croped.png";
 import dropdown from "../../public/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
 
-export default function Header() {
+const Header = ({ refToServices }) => {
+
+  const scrolltoLast = () => {
+    if (refToServices.current) {
+      refToServices.current.scrollIntoView();
+    }
+  };
 
   const [openMenu, setOpenMenu] = useState(false);
 
-  const ref = useRef(null);
-  const handleClick = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'})
-  };
-  
+
   return (
     <>
       <header>
@@ -51,7 +52,7 @@ export default function Header() {
                   <a
                     href="#"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
-                    onClick={handleClick}
+                    onClick={scrolltoLast}
                   >
                     Serviços
                   </a>
@@ -60,8 +61,9 @@ export default function Header() {
                   <a
                     href="#"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
+                    onClick={scrolltoLast}
                   >
-                    Clientes
+                    Sobre nós
                   </a>
                 </li>
                 <li>
@@ -69,7 +71,7 @@ export default function Header() {
                     href="#"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
                   >
-                    Sobre nós
+                    Clientes
                   </a>
                 </li>
                 <li>
@@ -141,3 +143,5 @@ export default function Header() {
     </>
   );
 }
+
+export default Header

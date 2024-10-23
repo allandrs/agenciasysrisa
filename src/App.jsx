@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import "./App.css";
+import { useRef } from "react";
 
 // components
 import Header from './components/header';
@@ -15,10 +16,12 @@ import Footer from "./components/footer"
 
 const App = () => {
 
+  const ref = useRef(null);
+  
   return (
     <>
-      <Header />
-      <Services />
+      <Header refToServices={ref} />
+      <Services ref={ref} />
       {/* <Clientes /> */}
       {/* <Plan /> */}
 

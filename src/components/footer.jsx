@@ -39,13 +39,13 @@ export default function Footer() {
 
                     </div>
 
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col items-center gap-1">
                             <h1 className="text-base">Siga-nos</h1>
                             <div className="flex gap-2">
                                 <a href="https://www.instagram.com/agenciasysrisa/"><img src={Instagram} className="h-8" alt="logo" /></a>
                                 
 
-                                <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a>
+                                {/* <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a> */}
                             </div>
                     </div>
                     

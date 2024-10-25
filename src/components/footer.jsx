@@ -45,7 +45,7 @@ export default function Footer() {
                                 <a href="https://www.instagram.com/agenciasysrisa/"><img src={Instagram} className="h-8" alt="logo" /></a>
                                 
 
-                                {/* <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a> */}
+                                <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a>
                             </div>
                     </div>
                     

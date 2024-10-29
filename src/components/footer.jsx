@@ -8,7 +8,7 @@ import Wpp from "../../public/whatsapp.png";
 import Instagram from "../../public/instagram.png";
 import Facebook from "../../public/facebook.png";
 import Mail from "../../public/mail.png";
-import Time from "../../public/time.png";
+// import Time from "../../public/time.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { fa-brands fa-instagram } from '@awesome.me/kit-KIT_CODE/icons'
 

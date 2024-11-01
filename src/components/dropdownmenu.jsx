@@ -4,7 +4,7 @@ import "../style/dropDownMenu.css"
 export default function DropDownMenu() {
     return (
         <>
-            <div className='flex flex-col dropDownMenu'>
+            <div className='flex flex-col dropDownMenu md:hidden'>
                 <ul className='flex flex-col gap-4 z-40'>
                     <a href="#">Home</a>
                     <a href="#services">Serviços</a>

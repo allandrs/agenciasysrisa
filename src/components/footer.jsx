@@ -32,7 +32,7 @@ export default function Footer() {
                             <p className="text-xs">agenciasysrisa@devadr.com</p>
                         </div>
                         <div className="flex gap-1 items-center">
-                            <a href="https://api.whatsapp.com/send?phone=5555997323505&text=Ol%C3%A1%20Ag%C3%AAncia%20SYSRISA,%20me%20interessei%20pelos%20seus%20servi%C3%A7os." className="flex gap-1 items-center">
+                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"  className="flex gap-1 items-center">
                                 <img src={Wpp} className="h-6" alt="" />
                                 <p className="text-xs"> (55) 99732-3505</p>
                             </a>
@@ -43,22 +43,22 @@ export default function Footer() {
                     <div className="flex flex-col items-center gap-1">
                             <h1 className="text-base">Siga-nos</h1>
                             <div className="flex gap-2">
-                                <a href="https://www.instagram.com/agenciasysrisa/"><img src={Instagram} className="h-8" alt="logo" /></a>
+                                <a href="https://www.instagram.com/agenciasysrisa/" target="_blank"><img src={Instagram} className="h-8" alt="logo" /></a>
                                 
 
-                                <a href="https://www.facebook.com/profile.php?id=100075775881308"><img src={Facebook} className="h-8" alt="logo" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100075775881308" ><img src={Facebook} className="h-8" alt="logo" /></a>
                             </div>
                     </div>
                     
 
-                    <div className="fixed top-[460px] right-[30px] md:top-[500px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
-                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente.">
-                        
+                    <div className="fixed top-[460px] right-[30px] md:top-[400px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
+                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"> 
+                       
                             <img src={Wpp} alt=""/>
                         </a>
                     </div>
 
-                    <div className="fixed top-[540px] right-[30px] md:top-[580px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
+                    <div className="fixed top-[540px] right-[30px] md:top-[480px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
                         
                         <a href="#">
                         

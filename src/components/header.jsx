@@ -140,7 +140,7 @@ const Header = () => {
                 </p>
                 <div className="button-title flex justify-start">
                   <button className=" mt-6 bg-[#06d2dd] text-white text-xs rounded-md w-28 h-7 font-semibold transition cursor-pointer animate-pulse">
-                    <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente.">Começe agora</a>
+                    <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank">Começe agora</a>
                   </button>
                 </div>
               </div>

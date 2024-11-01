@@ -58,7 +58,7 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    <div className="fixed top-[580px] right-[30px] md:top-[500px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
+                    <div className="fixed top-[580px] right-[30px] md:top-[580px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
                         
                         <a href="#">
                         

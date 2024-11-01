@@ -29,7 +29,7 @@ export default function Footer() {
         
                         <div className="flex gap-1 items-center">
                             <img src={Mail} className="h-6" alt="" />
-                            <p className="text-xs">contato@sysrisa.com</p>
+                            <p className="text-xs">agenciasysrisa@devadr.com</p>
                         </div>
                         <div className="flex gap-1 items-center">
                             <a href="https://api.whatsapp.com/send?phone=5555997323505&text=Ol%C3%A1%20Ag%C3%AAncia%20SYSRISA,%20me%20interessei%20pelos%20seus%20servi%C3%A7os." className="flex gap-1 items-center">

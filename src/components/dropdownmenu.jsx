@@ -5,12 +5,16 @@ export default function DropDownMenu() {
     return (
         <>
             <div className='flex flex-col dropDownMenu'>
-                <ul className='flex flex-col gap-4'>
-                    <li>Home</li>
+                <ul className='flex flex-col gap-4 z-40'>
+                    <a href="#">Home</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#about">Sobre nós</a>
+                    <a href="#comofunciona">Como funciona</a>
+                    <a href="#footer">Contato</a>
+                    {/* <li><a href="/">Home</a></li>
                     <li>Serviços</li>
-                    <li>Clientes</li>
                     <li>Sobre nós</li>
-                    <li>Planos</li>
+                    <li>Como funciona</li> */}
                 </ul>
             </div>
         </>

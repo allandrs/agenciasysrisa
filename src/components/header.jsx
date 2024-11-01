@@ -11,13 +11,21 @@ import verticalsdeveloper from "../../public/software-developer-6521720-vertical
 import freela from "../../public/freelance-work-7308505_1920-croped.png";
 import dropdown from "../../public/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg";
 
-const Header = ({ refToServices }) => {
+const Header = () => {
 
-  const scrolltoLast = () => {
-    if (refToServices.current) {
-      refToServices.current.scrollIntoView();
-    }
-  };
+  // const scrollToService = () => {
+  //   if (refToServices.current) {
+  //     refToServices.current.scrollIntoView();
+  //   }
+  // };
+
+  // const scrollToAbout = () => {
+  //   if (refToAbout.current) {
+  //     refToAbout.current.scrollIntoView();
+  //   }
+  // };
+
+  
 
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -50,45 +58,45 @@ const Header = ({ refToServices }) => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#services"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
-                    onClick={scrolltoLast}
+                    
                   >
                     Serviços
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#about"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
-                    onClick={scrolltoLast}
+                    
                   >
                     Sobre nós
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#comofunciona"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
                   >
-                    Clientes
+                    Como funciona
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="#"
                     className="hover:text-[#06d2dd] transition duration-200 text-sm"
                   >
-                    Planos
+                    Contato
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
 
-            <div className="md:w-[150px] flex items-center invisible md:visible">
-              <button className="bg-[#06d2dd] text-white font-semibold rounded-md w-24 h-7 mr-8 text-sm">
+            <div  className="md:w-[150px] flex items-center justify-center content-center align-middle text-center invisible md:visible">
+              <a href="#footer" className="bg-[#06d2dd] text-white font-semibold rounded-md pl-1 w-28 h-7 mr-8 text-sm">
                 Contate-nos
-              </button>
+              </a>
             </div>
 
             <div className=" md:hidden">

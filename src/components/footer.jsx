@@ -16,7 +16,7 @@ import Mail from "../../public/mail.png";
 export default function Footer() {
     return (
         <>
-            <div className="h-[410px] md:h-[160px]  bg-[#0b112b] text-white flex flex-col justify-center">
+            <div id="footer" className="h-[410px] md:h-[160px]  bg-[#0b112b] text-white flex flex-col justify-center">
 
                 <div className="flex flex-col justify-center place-items-start mx-10 md:mx-2 md:flex-row gap-12 mt-6">
                     <div>

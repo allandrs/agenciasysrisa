@@ -5,7 +5,7 @@ import "../style/header.css";
 import DropDownMenu from "./dropdownmenu.jsx";
 
 //images
-import Logo from "../../public/sysrisa_logo_edited.png";
+import Logo from "../../public/drisa_logo.png";
 import softdeveloper from "../../public/software-developer-6521720-croped.jpg";
 import verticalsdeveloper from "../../public/software-developer-6521720-vertical.jpg";
 import freela from "../../public/freelance-work-7308505_1920-croped.png";

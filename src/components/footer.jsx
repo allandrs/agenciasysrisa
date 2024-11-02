@@ -3,7 +3,7 @@ import React from "react";
 
 import "../style/chatbox.css";
 
-import Logo from "../../public/sysrisa_logo_edited.png";
+import Logo from "../../public/drisa_logo.png";
 import Wpp from "../../public/whatsapp.png";
 import Instagram from "../../public/instagram.png";
 import Facebook from "../../public/facebook.png";
@@ -29,7 +29,7 @@ export default function Footer() {
         
                         <div className="flex gap-1 items-center">
                             <img src={Mail} className="h-6" alt="" />
-                            <p className="text-xs">agenciasysrisa@devadr.com</p>
+                            <p className="text-xs">agenciadrisa@devadr.com</p>
                         </div>
                         <div className="flex gap-1 items-center">
                         <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"  className="flex gap-1 items-center">
@@ -71,7 +71,7 @@ export default function Footer() {
 
                 <div className="footerfooter flex justify-center items-center p-2 mt-6 border-solid border-gray-500 border-t-[0.1px] border-opacity-30">
                     <div>
-                        <h1 className="text-xs text-gray-500 flex-wrap mx-2">Desenvolvido por Agência SYSRISA | Todos os direitos reservados © | Políticas de privacidade  </h1>
+                        <h1 className="text-xs text-gray-500 flex-wrap mx-2">Desenvolvido por Agência DRISA | Todos os direitos reservados © | Políticas de privacidade  </h1>
                     </div>
                     
                 </div>

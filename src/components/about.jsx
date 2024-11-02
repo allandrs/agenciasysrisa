@@ -22,7 +22,7 @@ const About = forwardRef((props, ref) => {
                             <h1 className="text-3xl font-bold text-[#06d2dd]">Sobre <span className="text-white">nós</span></h1>
                         </div>
                         <p className="text-gray-400 mt-5">
-                        Na <span className="text-[#06d2dd] font-bold">Agência SYSRISA</span>, somos apaixonados por criar experiências digitais que <span className="text-white font-bold">transformam negócios.</span> Com uma equipe de especialistas em design e desenvolvimento de sites, nossa missão é entregar sites e design do seu sistema que não apenas impressionam visualmente, mas também geram resultados concretos.
+                        Na <span className="text-[#06d2dd] font-bold">Agência DRISA</span>, somos apaixonados por criar experiências digitais que <span className="text-white font-bold">transformam negócios.</span> Com uma equipe de especialistas em design e desenvolvimento de sites, nossa missão é entregar sites e design do seu sistema que não apenas impressionam visualmente, mas também geram resultados concretos.
                         </p>
 
                         <p className="mt-5 text-gray-400">

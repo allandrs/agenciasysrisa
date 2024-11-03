@@ -94,7 +94,7 @@ const Header = () => {
             </nav>
 
             <div  className="md:w-[150px] flex items-center invisible md:visible">
-              <a href="#footer" className="bg-[#06d2dd] text-white font-semibold rounded-md pl-1 w-28 h-7 mr-8 text-sm flex items-center justify-center">
+              <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank" className="bg-[#06d2dd] text-white font-semibold rounded-md pl-1 w-28 h-7 mr-8 text-sm flex items-center justify-center">
                 Contate-nos
               </a>
             </div>

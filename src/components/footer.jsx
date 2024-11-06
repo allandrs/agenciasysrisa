@@ -32,7 +32,7 @@ export default function Footer() {
                             <p className="text-xs">agenciadrisa@devadr.com</p>
                         </div>
                         <div className="flex gap-1 items-center">
-                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"  className="flex gap-1 items-center">
+                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20DRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"  className="flex gap-1 items-center">
                                 <img src={Wpp} className="h-6" alt="" />
                                 <p className="text-xs"> (55) 99732-3505</p>
                             </a>
@@ -52,7 +52,7 @@ export default function Footer() {
                     
 
                     <div className="fixed top-[460px] right-[30px] md:top-[400px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
-                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20SYSRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"> 
+                        <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20DRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"> 
                        
                             <img src={Wpp} alt=""/>
                         </a>

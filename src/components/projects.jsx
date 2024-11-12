@@ -1,17 +1,34 @@
 import React from "react";
 
+import Portfolio from "../../public/portfolio.png";
+
 import Card from "./card_projects.jsx";
 
 export default function Projects() {
     return (
         <>
-            <div>
+            <div className="ctner h-[690px]">
 
-                <div>
+                <div className="grid gap-5 grid-cols-1 md:grid-cols-3 place-items-center mt-10">
                     <Card
-                        titulo="Responsividade"
+                        titulo="Página de vendas"
+                        img={Portfolio}
+                    />
+                    <Card
+                        titulo="Portfólio"
                         img=""
-                        texto1="Mais de 60% dos acessos à internet são feitos por dispositivos móveis. Se o seu site não está perfeitamente ajustado para todos os tamanhos de tela, você está perdendo visitantes e vendas."
+                    />
+                    <Card
+                        titulo="App delivery"
+                        img=""
+                    />
+                    <Card
+                        titulo="Sistema Financeiro"
+                        img=""
+                    />
+                    <Card
+                        titulo="Site"
+                        img=""
                     />
                 </div>
             </div>

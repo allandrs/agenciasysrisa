@@ -25,7 +25,7 @@ const App = () => {
       <Services ref={ref} />
       {/* <Clientes /> */}
       {/* <Plan /> */}
-      <Projects />
+      {/* <Projects /> */}
       <About />
       <Processos />
       {/* <SecaoFormulario /> */}

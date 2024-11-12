@@ -51,14 +51,14 @@ export default function Footer() {
                     </div>
                     
 
-                    <div className="fixed top-[460px] right-[30px] md:top-[400px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
+                    <div className="fixed top-[460px] right-[30px] md:top-[700px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
                         <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20DRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"> 
                        
                             <img src={Wpp} alt=""/>
                         </a>
                     </div>
 
-                    <div className="fixed top-[540px] right-[30px] md:top-[480px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
+                    <div className="fixed top-[540px] right-[30px] md:top-[760px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
                         
                         <a href="#">
                         

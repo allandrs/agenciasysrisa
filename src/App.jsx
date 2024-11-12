@@ -7,11 +7,12 @@ import { useRef } from "react";
 import Header from './components/header';
 import Services from './components/services';
 import About from "./components/about";
-import Clientes from "./components/clientes";
+// import Clientes from "./components/clientes";
 import Processos from './components/processos';
 // import Plan from "./components/plan";
-import SecaoFormulario from "./components/secao_formulario"
+// import SecaoFormulario from "./components/secao_formulario"
 import Footer from "./components/footer"
+import Projects from "./components/projects";
 
 
 const App = () => {
@@ -24,7 +25,7 @@ const App = () => {
       <Services ref={ref} />
       {/* <Clientes /> */}
       {/* <Plan /> */}
-
+      <Projects />
       <About />
       <Processos />
       {/* <SecaoFormulario /> */}

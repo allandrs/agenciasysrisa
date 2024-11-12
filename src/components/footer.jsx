@@ -43,10 +43,10 @@ export default function Footer() {
                     <div className="flex flex-col items-center gap-1">
                             <h1 className="text-base">Siga-nos</h1>
                             <div className="flex gap-2">
-                                <a href="https://www.instagram.com/agenciasysrisa/" target="_blank"><img src={Instagram} className="h-8" alt="logo" /></a>
+                                <a href="https://www.instagram.com/agenciadrisa/" target="_blank"><img src={Instagram} className="h-8" alt="logo" /></a>
                                 
 
-                                <a href="https://www.facebook.com/profile.php?id=100075775881308" ><img src={Facebook} className="h-8" alt="logo" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100075775881308" target="_blank"><img src={Facebook} className="h-8" alt="logo" /></a>
                             </div>
                     </div>
                     

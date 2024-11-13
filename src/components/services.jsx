@@ -11,10 +11,10 @@ import Header from "./header";
 
 
 //images
-import Vilabeer from "../../public/Vila-Beer.png";
-import Elmiz from "../../public/black-clean.png";
-import Darkz from "../../public/darkz.png";
-import Devfinance from "../../public/devfinance.png";
+// import Vilabeer from "../../public/Vila-Beer.png";
+// import Elmiz from "../../public/black-clean.png";
+// import Darkz from "../../public/darkz.png";
+// import Devfinance from "../../public/devfinance.png";
 import Responsive from "../../public/responsive-removebg-preview.png";
 import Website from "../../public/site-removebg-preview.png"
 import SEO from "../../public/seo-removebg-preview.png"
@@ -48,9 +48,9 @@ const Services = forwardRef((props, ref) => {
   
   return (
       <>
-        <div id="services" className="bg-[#0b112b] h-[168rem] md:h-[84rem] w-full relative flex flex-col items-center">
-          <div className="flex justify-center mx-2 md:mx-4 mt-16" ref={compRef}>
-            <h1 className="font-bold pt-6 text-nowrap text-white">
+        <div id="services" className="bg-white h-[148rem] md:h-[60rem] w-full relative flex flex-col items-center">
+          {/* <div className="flex justify-center mx-2 md:mx-4 mt-16" ref={compRef}>
+            <h1 className="font-bold pt-6 text-nowrap text-[#0d1537]">
               <span className="text-[#06d2dd] ">Empresas</span> que estão crescendo
               conosco
             </h1>
@@ -64,10 +64,10 @@ const Services = forwardRef((props, ref) => {
             
             <img src={Devfinance} alt="logo" className="h-20 rounded-full" />
             
-          </div>
+          </div> */}
   
           <div className="flex flex-col items-center pt-16 mx-2 md:mx-4 mt-10">
-            <h1 className="text-3xl font-extrabold text-white text-center">
+            <h1 className="text-3xl font-extrabold text-[#0d1537] text-center">
             O que fazemos para<span className="text-[#06d2dd]"> destacar </span>seu site na internet
             </h1>
             <br />

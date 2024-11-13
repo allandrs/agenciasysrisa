@@ -21,7 +21,7 @@ export default function Processos() {
 
   return (
     <>
-      <div id="comofunciona" className="flex  w-full h-[2550px] md:h-[1800px] justify-center bg-[white] relative mb-24 md:mb-14 ">
+      <div id="comofunciona" className="flex  w-full h-[2000px] md:h-[1350px] justify-center bg-[white] relative mb-24 md:mb-14 ">
         <div className="w-[800px] bg-gradient-to-r from-[#65b4ff] via-[#d5eced] to-[#c2ebed] rounded-xl mt-6 mx-2">
           <div className="flex justify-center items-center shrink-0 gap-4 text-4xl mt-8 text-center">
             <div className="invisible">di</div>
@@ -34,31 +34,35 @@ export default function Processos() {
               subtitulo="Entendendo suas necessidades"
               img={Meeting}
               texto="Entendendo seu negócio, objetivos e funcionalidades necessárias." 
-              texto2="Aqui capturarmos a essência da sua marca e planejamos um projeto que atenda às suas expectativas."
+              // texto2="Aqui capturarmos a essência da sua marca e planejamos um projeto que atenda às suas expectativas."
             />
             <CardProcessos
               titulo="2º Passo - Desenvolvimento"
               subtitulo="Transformando ideias em realidade"
               img={Gears}
-              texto="Com o briefing em mãos, iniciamos o desenvolvimento do design e a estrutura do seu site." texto2="Garantindo a responsividade, usabilidade e uma navegação intuitiva, atentos para os detalhes técnicos para que o site seja ágil, seguro e otimizado para SEO."
+              texto="Com o briefing em mãos, iniciamos o desenvolvimento do design e a estrutura do seu site." 
+              // texto2="Garantindo a responsividade, usabilidade e uma navegação intuitiva, atentos para os detalhes técnicos para que o site seja ágil, seguro e otimizado para SEO."
             />
             <CardProcessos
               titulo="3º Passo - Aprovação"
               subtitulo="Transformando ideias em realidade"
               img={Approval}
-              texto="Após o desenvolvimento, apresentamos o site para sua avaliação." texto2="Você revisa o layout, funcionalidades e conteúdo. Ajustamos conforme necessário para que tudo fique exatamente como você imaginou."
+              texto="Após o desenvolvimento, apresentamos o site para sua avaliação." 
+              // texto2="Você revisa o layout, funcionalidades e conteúdo. Ajustamos conforme necessário para que tudo fique exatamente como você imaginou."
             />
             <CardProcessos
               titulo="4º Passo - Teste"
               subtitulo="Garantindo a perfeição"
               img={Test}
-              texto="Antes de ir ao ar, realizamos uma série de testes rigorosos." texto2="Verificamos o desempenho em diferentes dispositivos e navegadores, testamos a velocidade de carregamento e eliminamos qualquer erro para garantir que tudo funcione perfeitamente."
+              texto="Antes de ir ao ar, realizamos uma série de testes rigorosos." 
+              // texto2="Verificamos o desempenho em diferentes dispositivos e navegadores, testamos a velocidade de carregamento e eliminamos qualquer erro para garantir que tudo funcione perfeitamente."
             />
             <CardProcessos
               titulo="5º Passo - Entrega"
               subtitulo="Seu site no ar!"
               img={Finish}
-              texto="Com os testes finalizados e sua aprovação, é hora de lançar o site ou sistema!" texto2="Publicamos a plataforma e monitoramos o funcionamento                 inicial para garantir que esteja tudo rodando perfeitamente. Agora você tem uma presença digital sólida, pronta para gerar resultados."
+              texto="Com os testes finalizados e sua aprovação, é hora de lançar sua plataforma na internet!" 
+              // texto2="Publicamos a plataforma e monitoramos o funcionamento                 inicial para garantir que esteja tudo rodando perfeitamente. Agora você tem uma presença digital sólida, pronta para gerar resultados."
               
             />
           </div>

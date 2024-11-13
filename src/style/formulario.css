@@ -81,9 +81,6 @@
     background-color: #61dbfb;
   }
 
-  .message input {
-      height: 150px;
-  }
 
   @media (min-width: 620px) {
     .form-group {

@@ -14,6 +14,24 @@ export function Formulario() {
 
   const onSubmit = data => {
     alert(JSON.stringify(data));
+
+        // Formate a mensagem para o WhatsApp com os dados do formulário
+        const message = `Nome: ${data.nome}\nSobrenome: ${data.sobrenome}\nE-mail: ${data.email}\nTelefone: ${data.telefone}\nMensagem: ${data.message || ''}`;
+        
+        // Codifique a mensagem para a URL
+        const encodedMessage = encodeURIComponent(message);
+        
+        // Defina o número para enviar o WhatsApp
+        const whatsappNumber = '5555997323505'; // Altere para o número desejado no formato internacional (ex: 5511999999999 para Brasil)
+    
+        // Crie a URL do WhatsApp
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+        
+        // Abra o WhatsApp em uma nova aba
+        window.open(whatsappUrl, '_blank');
+
+
+
   };
 
   return (

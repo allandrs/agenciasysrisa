@@ -8,8 +8,13 @@ export default function Projects() {
     return (
         <>
             <div className="ctner h-[690px]">
-
-                <div className="grid gap-5 grid-cols-1 md:grid-cols-3 place-items-center mt-10">
+                <div className="flex flex-col items-center pt-16 mx-2 md:mx-4 mt-10">
+                    <h1 className="text-3xl font-extrabold text-blue text-center">
+                    Alguns de <span className="text-[#06d2dd]"> nossos </span>projetos
+                    </h1>
+                    <br />
+                </div>
+                <div className="grid gap-5 grid-cols-1 md:grid-cols-4 place-items-center mt-10">
                     <Card
                         titulo="Página de vendas"
                         img={Portfolio}
@@ -24,10 +29,6 @@ export default function Projects() {
                     />
                     <Card
                         titulo="Sistema Financeiro"
-                        img=""
-                    />
-                    <Card
-                        titulo="Site"
                         img=""
                     />
                 </div>

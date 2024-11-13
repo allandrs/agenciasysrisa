@@ -131,8 +131,8 @@ const Header = () => {
               <div className="container-copy  ml-[7rem] md:ml-[19rem] w-[15rem] md:w-[40rem]">
                 <h1 className="text  box-h1-decoration-clone  text-xl md:text-2xl   font-extrabold w-full">
                   <span className="box-decoration-clone   text-white transition">
-                  Na DRISA, desenvolvemos  <span className="box-decoration-clone  text-[#06d2dd] transition"> sites, landing pages e lojas virtuais </span>   
-                    <br />focados em resultado.<br />Pronto para se destacar e aumentar suas vendas?
+                  Na DRISA, desenvolvemos <span className="box-decoration-clone  text-[#06d2dd] transition"> sites, landing pages e lojas virtuais </span>   
+                    focados em destacar sua marca <br /> e aumentar suas vendas.<br />
                   </span>
                 </h1>
                 <p className="text-subtitle text-[12px] md:text-sm text-[#06d2dd] font-semibold mt-4 w-full">

@@ -70,10 +70,10 @@ export function Formulario() {
         <p className='error-message'>Telefone é obrigatório</p>}
       </div>
 
-      <div className='form-group'>
+      <div className='form-group message'>
         <label>Mensagem</label>
-        <input {...register("message")} 
-        />
+        <input {...register("message")}
+        type='text'/>
       </div>    
 
       <div className='form-group'>  

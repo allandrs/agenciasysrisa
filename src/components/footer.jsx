@@ -20,8 +20,13 @@ export default function Footer() {
             <div id="footer" className="h-[410px] md:h-[160px]  bg-[#0b112b] text-white flex flex-col justify-center">
 
                 <div className="flex flex-col justify-center place-items-start mx-10 md:mx-2 md:flex-row gap-12 mt-6">
-                    <div>
+                    <div className="flex gap-8">
                             <img className="h-20" src={Logo} alt="logo"/>
+                            <div className=" md:visible top-[540px] right-[30px] md:top-[540px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
+                        <a href="#">       
+                            <img src={Arrow} className="rotate-[270deg]" alt="seta para voltar para início" />
+                        </a>
+                    </div>
                     </div>
 
                     <div className="flex flex-col ">
@@ -47,9 +52,14 @@ export default function Footer() {
                                 
 
                                 <a href="https://www.facebook.com/profile.php?id=100075775881308" target="_blank"><img src={Facebook} className="h-8" alt="logo" /></a>
+                                
                             </div>
+                                                
+
                     </div>
-                    
+
+
+
 
                     <div className="fixed top-[460px] right-[30px] md:top-[480px] md:right-[50px] bg-blue-gray-600 rounded-full w-12 h-12 flex justify-center items-center">
                         <a href="https://wa.me/5555997323505?text=Me%20interessei%20pelos%20servi%C3%A7os%20da%20Ag%C3%AAncia%20DRISA%2C%20gostaria%20de%20conversar%20com%20um%20atendente." target="_blank"> 
@@ -58,13 +68,7 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    <div className="fixed top-[540px] right-[30px] md:top-[540px] md:right-[50px]  rounded-full w-12 h-12 flex justify-center items-center">
-                        
-                        <a href="#">
-                        
-                            <img src={Arrow} className="rotate-[270deg]" alt="seta para voltar para início" />
-                        </a>
-                    </div>
+
 
                 </div>
                 

@@ -12,7 +12,7 @@ import Processos from './components/processos';
 // import Plan from "./components/plan";
 // import SecaoFormulario from "./components/secao_formulario"
 import Footer from "./components/footer"
-import Projects from "./components/projects";
+// import Projects from "./components/projects";
 
 
 const App = () => {

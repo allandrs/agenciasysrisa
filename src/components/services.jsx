@@ -15,7 +15,7 @@ import Header from "./header";
 // import Elmiz from "../../public/black-clean.png";
 // import Darkz from "../../public/darkz.png";
 // import Devfinance from "../../public/devfinance.png";
-import Responsive from "../../public/responsive-removebg-preview.png";
+import Responsive from "../../public/responsive.png";
 import Website from "../../public/site-removebg-preview.png"
 import SEO from "../../public/seo-removebg-preview.png"
 import Design from "../../public/removebg.png"

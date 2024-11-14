@@ -11,7 +11,7 @@ import Card from "./card_projects.jsx";
 export default function Projects() {
     return (
         <>
-            <div className="ctner h-[2500px] md:h-[1350px] bg-[#0b112b]">
+            <div className="ctner h-[3100px] md:h-[1350px] bg-[#0b112b]">
                 <div className="flex flex-col items-center pt-16 mx-2 md:mx-4 ">
                     <h1 className="text-3xl font-extrabold text-white text-center">
                     Alguns de <span className="text-[#06d2dd]"> nossos </span>projetos

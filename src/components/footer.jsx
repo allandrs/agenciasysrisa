@@ -51,7 +51,7 @@ export default function Footer() {
                                 <a href="https://www.instagram.com/agenciadrisa/" target="_blank"><img src={Instagram} className="h-8" alt="logo" /></a>
                                 
 
-                                <a href="https://www.facebook.com/profile.php?id=100075775881308" target="_blank"><img src={Facebook} className="h-8" alt="logo" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=61568389666628" target="_blank"><img src={Facebook} className="h-8" alt="logo" /></a>
                                 
                             </div>
                                                 

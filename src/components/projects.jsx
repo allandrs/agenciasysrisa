@@ -7,6 +7,7 @@ import Finances from "../../public/finances.png";
 import Dark from "../../public/loginDark.png";
 
 import Card from "./card_projects.jsx";
+// import Carousel from "./carousel.jsx"
 
 export default function Projects() {
     return (
@@ -18,6 +19,7 @@ export default function Projects() {
                     </h1>
                     <br />
                 </div>
+                {/* <Carousel /> */}
                 <div className="grid gap-8 md:gap-3 grid-cols-1 md:grid-cols-3 place-items-center mt-10">
                     <Card
                         titulo="Site"

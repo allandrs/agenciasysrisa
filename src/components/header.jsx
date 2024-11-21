@@ -128,13 +128,13 @@ const Header = () => {
               alt=""
             />
             <div className="flex absolute  mx-4 md:mx-8 mt-14">
-              <div className="container-copy  ml-[7rem] md:ml-[19rem] w-[15rem] md:w-[40rem]">
-                <h1 className="text  box-h1-decoration-clone  text-xl md:text-2xl   font-extrabold w-full">
-                  <span className="box-decoration-clone   text-white transition">
-                  Na DRISA, desenvolvemos <span className="box-decoration-clone  text-[#06d2dd] transition"> sites, landing pages e lojas virtuais </span>   
-                    focados em destacar sua marca <br /> e aumentar suas vendas.<br />
-                  </span>
-                </h1>
+              <div className="container-copy  ml-[125px] md:ml-[19rem] w-[260px] md:w-[40rem]">
+                <div className="w-full">
+                  <h1 className="text box-h1-decoration-clone  text-xl md:text-2xl text-white transition   font-extrabold">
+                    Na DRISA, criamos <span className="box-decoration-clone whitespace-nowrap  text-[#06d2dd] transition"> sites, landing pages e lojas virtuais </span>   <br />
+                    <span className="whitespace-nowrap">que impulsionam sua marca </span> e suas vendas.
+                  </h1>
+                </div>
                 <p className="text-subtitle text-[12px] md:text-sm text-[#06d2dd] font-semibold mt-4 w-full">
                   Seu parceiro de confiança para entrega garantida de resultados.
                 </p>

@@ -1,18 +1,18 @@
 .text {
 
 	transform: translateX(-200%);
-	animation: slide-in-anim 1.5s ease-out forwards;
+	animation: slide-in-anim 1.3s ease-out forwards;
 }
 
 .text-subtitle {
 	transform: translateX(-200%);
-	animation: slide-in-anim 1.5s ease-out forwards;
+	animation: slide-in-anim 2.3s ease-out forwards;
 }
 
 .button-title {
 	transform: translateX(-200%);
 	opacity: 0;
-	animation: slide-in-anim 2.5s ease-out forwards;
+	animation: slide-in-anim 2.9s ease-out forwards;
 }
 
 @keyframes slide-in-anim {

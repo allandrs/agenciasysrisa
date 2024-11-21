@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function CardPlan({ titulo, texto, icon }) {
+export default function CardPlan({icon, titulo, subtitulo, p1, p2, p3, p4 }) {
   return (
     <>
-      <div className="mx-auto mt-6 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none flex flex-col">
+      <div className="mx-auto mt-6 max-w-72 rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none flex flex-col">
         <div className="p-8 sm:p-10 lg:flex-auto">
           <div className="flex">
             <p>{icon}</p>
@@ -11,7 +11,7 @@ export default function CardPlan({ titulo, texto, icon }) {
               {titulo}
             </h3>
           </div>
-          <p className="mt-6 text-base leading-7 text-gray-600">{texto}</p>
+          <p className="mt-6 text-base leading-7 text-gray-600">{subtitulo}</p>
           <div className="mt-10 flex items-center gap-x-4">
             <h4 className="flex-none text-sm font-semibold leading-6 text-[#06d2dd]">
               What’s included
@@ -35,7 +35,7 @@ export default function CardPlan({ titulo, texto, icon }) {
                   clip-rule="evenodd"
                 />
               </svg>
-              Private forum access
+              {p1}
             </li>
             <li className="flex gap-x-3">
               <svg
@@ -50,7 +50,7 @@ export default function CardPlan({ titulo, texto, icon }) {
                   clip-rule="evenodd"
                 />
               </svg>
-              Member resources
+              {p2}
             </li>
             <li className="flex gap-x-3">
               <svg
@@ -65,7 +65,7 @@ export default function CardPlan({ titulo, texto, icon }) {
                   clip-rule="evenodd"
                 />
               </svg>
-              Entry to annual conference
+              {p3}
             </li>
             <li className="flex gap-x-3">
               <svg
@@ -80,7 +80,7 @@ export default function CardPlan({ titulo, texto, icon }) {
                   clip-rule="evenodd"
                 />
               </svg>
-              Official member t-shirt
+              {p4}
             </li>
           </ul>
         </div>

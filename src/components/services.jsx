@@ -67,7 +67,7 @@ const Services = forwardRef((props, ref) => {
           </div> */}
   
           <div className="flex flex-col items-center pt-16 mx-2 md:mx-4 mt-10">
-            <h1 className="text-3xl font-extrabold text-[#0d1537] text-center">
+            <h1 className="text-2xl font-extrabold text-[#0d1537] text-center">
             O que fazemos para<span className="text-[#06d2dd]"> destacar </span>seu site na internet
             </h1>
             <br />

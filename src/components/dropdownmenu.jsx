@@ -10,6 +10,7 @@ export default function DropDownMenu() {
                     <a href="#services">Serviços</a>
                     <a href="#about">Sobre nós</a>
                     <a href="#comofunciona">Como funciona</a>
+                    <a href="#portfolio">Portfólio</a>
                     <a href="#footer">Contato</a>
                     {/* <li><a href="/">Home</a></li>
                     <li>Serviços</li>

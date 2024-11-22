@@ -82,6 +82,14 @@ const Header = () => {
                     Como funciona
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#portfolio"
+                    className="hover:text-[#06d2dd] transition duration-200 text-sm"
+                  >
+                    Portfolio
+                  </a>
+                </li>
                 {/* <li>
                   <a
                     href="#"

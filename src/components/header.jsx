@@ -139,8 +139,8 @@ const Header = () => {
               <div className="container-copy  ml-[98px] md:ml-[19rem] w-[215px] md:w-[40rem]">
                 <div className="w-full">
                   <h1 className="text box-h1-decoration-clone  text-xl md:text-2xl text-white transition   font-extrabold">
-                    <span className="whitespace-nowrap">Na DRISA, criamos <span className=" text-[#06d2dd] ">sites,</span></span> <span className=" whitespace-nowrap  text-[#06d2dd]">landing pages e lojas virtuais </span>   <br />
-                    <span className="whitespace-nowrap">que impulsionam sua marca </span> e suas vendas.
+                    <span className="whitespace-nowrap">Na DRISA, criamos <span className=" text-[#06d2dd] ">sites e </span></span> <span className=" whitespace-nowrap  text-[#06d2dd]">lojas virtuais </span>
+                    <span className="whitespace-nowrap">que impulsionam</span><br />sua marca e suas vendas.
                   </h1>
                 </div>
                 <p className="text-subtitle text-[12px] md:text-sm text-[#06d2dd] font-semibold mt-4 w-full">

@@ -22,11 +22,11 @@ const About = forwardRef((props, ref) => {
                             <h1 className="text-3xl font-bold text-[#06d2dd]">Sobre <span className="text-white">nós</span></h1>
                         </div>
                         <p className="text-gray-400 mt-5">
-                        Na <span className="text-[#06d2dd] font-bold">Agência DRISA</span>, somos apaixonados por criar experiências digitais que <span className="text-white font-bold">transformam negócios.</span> Com uma equipe de especialistas em design e desenvolvimento de sites, nossa missão é entregar sites e design do seu sistema que não apenas impressionam visualmente, mas também geram resultados concretos.
+                        Na <span className="text-[#06d2dd] font-bold">Agência DRISA</span>, somos especialistas em criar lojas virtuais que transformam negócios <span className="text-white font-bold">e impulsionam vendas.</span> Com uma equipe experiente em design e desenvolvimento de sites, entregamos soluções que não apenas impressionam visualmente, mas também são otimizadas para resultados concretos. Seja uma loja virtual poderosa ou um site institucional estratégico,<span className="font-bold text-white"> trabalhamos lado a lado com nossos clientes para entender suas necessidades e criar soluções personalizadas e inovadoras.</span>  
                         </p>
 
                         <p className="mt-5 text-gray-400">
-                            <span className="text-white font-bold ">Acreditamos que um visual (Front-End) bem-feito é a base para o sucesso online.</span> Por isso, trabalhamos lado a lado com nossos clientes para entender suas necessidades e traduzir suas ideias em soluções personalizadas, inovadoras e otimizadas para performance. Do design à entrega final, garantimos que cada detalhe esteja alinhado aos seus objetivos de negócio.
+                            Do planejamento ao lançamento, garantimos que cada detalhe esteja alinhado aos seus objetivos, com foco em performance, escalabilidade e conversão.
                         </p>
                     </div>
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import itemsCarousel from 'react-items-carousel';
+import ItemsCarousel from 'react-items-carousel';
 // import styled from 'styled-components'
 
 import Delivery from "../../public/delivery bebidas.png";
@@ -17,7 +17,7 @@ export default function Carousel() {
 
   return (
     <div style={{ padding: `0 ${chevronWidth}px` }}>
-      <itemsCarousel
+      <ItemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
         numberOfCards={2}
@@ -33,7 +33,7 @@ export default function Carousel() {
         <CardCarousel img={PSG} link={'https://allandrs.github.io/site-futebol/'}/>
         <CardCarousel img={Finances} link={'https://allandrs.github.io/sistema-controle-financeiro/'}/>
         <CardCarousel img={Dark} link={'https://allandrs.github.io/tela-login-dark/'}/>
-      </itemsCarousel>
+      </ItemsCarousel>
     </div>
   );
 }

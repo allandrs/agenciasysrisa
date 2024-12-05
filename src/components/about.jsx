@@ -25,7 +25,7 @@ const About = forwardRef((props, ref) => {
                         Na <span className="text-[#06d2dd] font-bold">Agência DRISA</span>, somos especialistas em criar lojas virtuais que transformam negócios <span className="text-white font-bold">e impulsionam vendas.</span> Com uma equipe experiente em design e desenvolvimento de sites, entregamos soluções que não apenas impressionam visualmente, mas também são otimizadas para resultados concretos. Seja uma loja virtual poderosa ou um site institucional estratégico,<span className="font-bold text-white"> trabalhamos lado a lado com nossos clientes para entender suas necessidades e criar soluções personalizadas e inovadoras.</span>  
                         </p>
 
-                        <p className="mt-5 text-gray-400">
+                        <p className="mt-5 text-gray-400 ">
                             Do planejamento ao lançamento, garantimos que cada detalhe esteja alinhado aos seus objetivos, com foco em performance, escalabilidade e conversão.
                         </p>
                     </div>

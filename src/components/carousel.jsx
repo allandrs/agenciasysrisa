@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ItemsCarousel from 'react-items-carousel';
+import itemsCarousel from 'react-items-carousel';
 // import styled from 'styled-components'
 
 import Delivery from "../../public/delivery bebidas.png";
@@ -17,7 +17,7 @@ export default function Carousel() {
 
   return (
     <div style={{ padding: `0 ${chevronWidth}px` }}>
-      <ItemsCarousel
+      <itemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
         numberOfCards={2}
@@ -28,12 +28,12 @@ export default function Carousel() {
         chevronWidth={chevronWidth}
 		infiniteLoop={true}
       >
-		<CardCarousel img={Delivery} link={'https://allandrs.github.io/delivery_bebidas/'}/>
-		<CardCarousel img={Portfolio} link={'https://allandrs.github.io/portfolio-html-css/'}/>
-		<CardCarousel img={PSG} link={'https://allandrs.github.io/site-futebol/'}/>
-		<CardCarousel img={Finances} link={'https://allandrs.github.io/sistema-controle-financeiro/'}/>
-		<CardCarousel img={Dark} link={'https://allandrs.github.io/tela-login-dark/'}/>
-      </ItemsCarousel>
+        <CardCarousel img={Delivery} link={'https://allandrs.github.io/delivery_bebidas/'}/>
+        <CardCarousel img={Portfolio} link={'https://allandrs.github.io/portfolio-html-css/'}/>
+        <CardCarousel img={PSG} link={'https://allandrs.github.io/site-futebol/'}/>
+        <CardCarousel img={Finances} link={'https://allandrs.github.io/sistema-controle-financeiro/'}/>
+        <CardCarousel img={Dark} link={'https://allandrs.github.io/tela-login-dark/'}/>
+      </itemsCarousel>
     </div>
   );
-};
+}

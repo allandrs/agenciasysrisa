@@ -9,7 +9,6 @@ import Services from './components/services';
 import About from "./components/about";
 // import Clientes from "./components/clientes";
 import Processos from './components/processos';
-import Plan from "./components/plan";
 import SecaoFormulario from "./components/secao_formulario"
 import Footer from "./components/footer"
 import Projects from "./components/projects";
@@ -27,7 +26,7 @@ const App = () => {
       {/* <Clientes /> */}
       <About />
       <Processos />
-      {/* <Projects /> */}
+      <Projects />
       {/* <Plan /> */}
       <SecaoFormulario />
       <Footer />

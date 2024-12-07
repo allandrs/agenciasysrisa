@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ItemsCarousel from 'react-items-carousel';
-// import styled from 'styled-components'
 
 import Delivery from "../../public/delivery bebidas.png";
 import Portfolio from "../../public/portfolio.png";
@@ -10,7 +9,7 @@ import Dark from "../../public/loginDark.png";
 
 import CardCarousel from "./cardCarousel"
 
-export default function Carousel() {
+export default () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
 
@@ -26,7 +25,7 @@ export default function Carousel() {
         rightChevron={<button className='bg-white rounded-full w-6'>{'>'}</button>}
         outsideChevron
         chevronWidth={chevronWidth}
-		infiniteLoop={true}
+		    infiniteLoop={true}
       >
         <CardCarousel img={Delivery} link={'https://allandrs.github.io/delivery_bebidas/'}/>
         <CardCarousel img={Portfolio} link={'https://allandrs.github.io/portfolio-html-css/'}/>
@@ -37,3 +36,30 @@ export default function Carousel() {
     </div>
   );
 }
+
+// import React, { useState } from 'react';
+// import ItemsCarousel from 'react-items-carousel';
+ 
+// export default () => {
+//   const [activeItemIndex, setActiveItemIndex] = useState(0);
+//   const chevronWidth = 40;
+//   return (
+//     <div style={{ padding: `0 ${chevronWidth}px` }}>
+//       <ItemsCarousel
+//         requestToChangeActive={setActiveItemIndex}
+//         activeItemIndex={activeItemIndex}
+//         numberOfCards={2}
+//         gutter={20}
+//         leftChevron={<button>{'<'}</button>}
+//         rightChevron={<button>{'>'}</button>}
+//         outsideChevron
+//         chevronWidth={chevronWidth}
+//       >
+//         <div style={{ height: 200, background: '#EEE' }}>First card</div>
+//         <div style={{ height: 200, background: '#EEE' }}>Second card</div>
+//         <div style={{ height: 200, background: '#EEE' }}>Third card</div>
+//         <div style={{ height: 200, background: '#EEE' }}>Fourth card</div>
+//       </ItemsCarousel>
+//     </div>
+//   );
+// };

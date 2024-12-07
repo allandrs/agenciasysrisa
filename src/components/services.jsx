@@ -108,7 +108,7 @@ const Services = forwardRef((props, ref) => {
               <Card
                 titulo="Suporte e manutenção"
                 img={Manutencao}
-                texto1="Seu site é um dos ativos mais valiosos da sua marca. Para garantir que ele funcione perfeitamente 24h/7dias, você precisa de uma equipe de especialistas pronta para resolver qualquer problema, atualizar funcionalidades e manter seu site seguro."
+                texto1="Para que sua loja ou site estejam sempre atualizados, funcionais e seguros, oferecemos suporte técnico contínuo. Desde a solução de problemas até melhorias e atualizações, cuidamos para que sua loja virtual esteja sempre pronta para vender mais!"
                 man
               />
             </div>

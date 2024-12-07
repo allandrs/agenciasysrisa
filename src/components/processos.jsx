@@ -52,9 +52,9 @@ export default function Processos() {
             />
             <CardProcessos
               titulo="4º Passo - Entrega"
-              subtitulo="Seu site no ar!"
+              subtitulo="Hora de decolar!!"
               img={Finish}
-              texto="Com sua aprovação, realizamos alguns teste e é hora de lançar sua plataforma na internet!" 
+              texto="Após sua aprovação e testes finais, lançamos sua plataforma ao mundo para dar início ao seu sucesso online!" 
               // texto2="Publicamos a plataforma e monitoramos o funcionamento                 inicial para garantir que esteja tudo rodando perfeitamente. Agora você tem uma presença digital sólida, pronta para gerar resultados."
               
             />

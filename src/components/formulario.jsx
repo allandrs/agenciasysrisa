@@ -22,7 +22,7 @@ export function Formulario() {
         const encodedMessage = encodeURIComponent(message);
         
         // Defina o número para enviar o WhatsApp
-        const whatsappNumber = '5555997323505'; // Altere para o número desejado no formato internacional (ex: 5511999999999 para Brasil)
+        const whatsappNumber = '5555984273497'; // Altere para o número desejado no formato internacional (ex: 5511999999999 para Brasil)
     
         // Crie a URL do WhatsApp
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;

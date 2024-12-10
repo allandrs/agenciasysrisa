@@ -37,7 +37,7 @@ const Header = () => {
 
           <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative  justify-between shadow-2xl items-center bg-contain border-none">
             
-            <a href="/" className="flex-initial ml-2 md:ml-8">
+            <a href="/" className="flex-initial ml-1 md:ml-3">
               <img
                 src={Logo}
                 alt="logo"
@@ -108,7 +108,7 @@ const Header = () => {
             </div>
 
             <div className=" md:hidden">
-              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}><img src={dropdown} className="mr-2" alt="menu"></img></span>
+              <span className="text-white" onClick={() => setOpenMenu((prev) => !prev)}><img src={dropdown} className="mr-5" alt="menu"></img></span>
             </div>
 
             {

@@ -127,7 +127,7 @@ const Header = () => {
             />
             <img
               src={verticalsdeveloper}
-              className="absolute img-header opacity-[.2] visible md:invisible "
+              className="absolute img-header opacity-[.2] visible md:invisible h-96"
               alt=""
             />
             <img

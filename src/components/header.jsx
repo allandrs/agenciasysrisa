@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="bg-[#0b112b] relative min-h-[500px] md:min-h-[600px] w-full ">
+        <div className="bg-[#0b112b] relative min-h-[440px] md:min-h-[600px] w-full ">
 
           <div className="flex bg-[#0b112b] top-0 left-0 right-0 h-15 relative  justify-between shadow-2xl items-center bg-contain border-none">
             
